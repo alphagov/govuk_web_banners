@@ -3,7 +3,9 @@ module GovukWebBanners
     isolate_namespace GovukWebBanners
 
     initializer "govuk_web_banners.engine" do
-      ActionView::Base.include(GovukWebBanners::ApplicationHelper)
+      ActiveSupport.on_load(:action_view) do
+        include GovukWebBanners::ApplicationHelper
+      end
     end
   end
 end

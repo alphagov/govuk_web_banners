@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/govuk_web_banners .css
+// Nothing to include here.
