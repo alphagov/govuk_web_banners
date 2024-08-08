@@ -1,5 +1,11 @@
-RSpec.describe RecruitmentBanner do
+RSpec.describe GovukWebBanners::RecruitmentBanner do
   context "current configuration" do
+    it "has a banners key" do
+      data = YAML.load_file(Rails.root.join(__dir__, described_class::CONFIG_FILE_PATH))
+
+      expect(data).to have_key("banners")
+    end
+
     it "does not contain invalid banners" do
       expect(described_class.all_banners.all?(&:valid?)).to eq(true)
     end
@@ -25,7 +31,7 @@ RSpec.describe RecruitmentBanner do
 
       describe ".for_path?" do
         it "returns banner that includes the path" do
-          expect(described_class.for_path("/foreign-travel-advice")).to be_instance_of(RecruitmentBanner)
+          expect(described_class.for_path("/foreign-travel-advice")).to be_instance_of(described_class)
         end
 
         it "returns nil for a path without a banner" do
@@ -42,7 +48,7 @@ RSpec.describe RecruitmentBanner do
 
     context "with broken banners" do
       let(:replacement_file) do
-        YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/broken_recruitment_banners.yml"))
+        YAML.load_file(Rails.root.join(GovukWebBanners.root, "spec/fixtures/broken_recruitment_banners.yml"))
       end
 
       describe ".all_banners" do

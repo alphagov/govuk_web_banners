@@ -1,0 +1,11 @@
+<% if emergency_banner.present? %>
+  <% homepage ||= false %>
+  <%= render "govuk_publishing_components/components/emergency_banner", {
+    campaign_class: emergency_banner.campaign_class,
+    heading: emergency_banner.heading,
+    link: emergency_banner.link,
+    link_text: emergency_banner.link_text,
+    short_description: emergency_banner.short_description,
+    homepage: homepage,
+  } %>
+<% end %>

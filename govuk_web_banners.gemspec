@@ -23,10 +23,13 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
+  spec.add_dependency "govuk_app_config"
   spec.add_dependency "govuk_publishing_components"
   spec.add_dependency "rails", ">= 7"
+  spec.add_dependency "redis"
 
   spec.add_development_dependency "byebug"
+  spec.add_development_dependency "fakeredis", "~> 0.9"
   spec.add_development_dependency "govuk_test"
   spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "rubocop-govuk"

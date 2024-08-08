@@ -4,7 +4,7 @@ module GovukWebBanners
 
     initializer "govuk_web_banners.engine" do
       ActiveSupport.on_load(:action_view) do
-        include GovukWebBanners::ApplicationHelper
+        include GovukWebBanners::BannersHelper
       end
     end
   end
