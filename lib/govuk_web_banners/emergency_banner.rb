@@ -1,5 +1,6 @@
 require "govuk_app_config/govuk_error"
 require "redis"
+require "uri"
 
 module GovukWebBanners
   class EmergencyBanner
@@ -18,13 +19,15 @@ module GovukWebBanners
     end
 
     class << self
-      def banner
+      def for_path(path)
         content = get_content
         return nil if content.blank?
 
         candidate_banner = EmergencyBanner.new(content:)
+        return nil unless candidate_banner.valid?
+        return nil if URI.parse(candidate_banner.link).path == path
 
-        candidate_banner.valid? ? candidate_banner : nil
+        candidate_banner
       end
 
     private

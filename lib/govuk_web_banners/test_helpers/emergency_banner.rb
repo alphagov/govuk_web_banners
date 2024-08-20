@@ -4,7 +4,7 @@ module GovukWebBanners
       def set_valid_emergency_banner(campaign_class: "national-emergency",
                                      heading: "Some important information",
                                      short_description: "Something important has happened",
-                                     link: "https://www.emergency.gov.uk",
+                                     link: "https://www.gov.uk/emergency",
                                      link_text: "See more")
         confirm_fake_redis_or_raise
 
@@ -25,11 +25,6 @@ module GovukWebBanners
 
       def set_invalid_emergency_banner
         set_valid_emergency_banner(campaign_class: "")
-      end
-
-      def set_notable_death_banner
-        set_valid_emergency_banner(campaign_class: "noteable-death",
-                                   short_description: "Someone important died")
       end
 
       def confirm_fake_redis_or_raise

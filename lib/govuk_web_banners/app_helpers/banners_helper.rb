@@ -1,7 +1,7 @@
 module GovukWebBanners
   module BannersHelper
     def emergency_banner
-      GovukWebBanners::EmergencyBanner.banner
+      GovukWebBanners::EmergencyBanner.for_path(request.path)
     end
 
     def recruitment_banner

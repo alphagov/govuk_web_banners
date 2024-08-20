@@ -27,7 +27,17 @@ describe "govuk_web_banners/_emergency_banner" do
       render
 
       expect(rendered).to match("See more")
-      expect(rendered).to match(/www\.emergency\.gov\.uk/)
+      expect(rendered).to match(/www\.gov\.uk\/emergency/)
+    end
+  end
+
+  context "with an emergency banner present without a link" do
+    before { set_valid_emergency_banner(link: nil) }
+
+    it "doesn't display the more information link" do
+      render
+
+      expect(rendered).not_to match("See more")
     end
   end
 end
