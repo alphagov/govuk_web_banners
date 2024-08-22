@@ -1,0 +1,19 @@
+  # Example usage of adding an entry to the global banner list:
+  # global_banner:
+  #   title: "Bring photo ID to vote"
+  #   title_href: "/how-to-vote/photo-id-youll-need"
+  #   link_text: "Check what photo ID you'll need to vote in person in the General Election on 4 July."
+  #   starts_at:  "2024-05-04T08:00:00" (leave blank to indicate starting immediately)
+  #   ends_at: "2024-07-04T22:00:00" (leave empty to indicate continuing for the foreseeable future)
+  #
+  # NOTE: There is only one global banner visible at a time! Start and end dates will be parsed during
+  # the test suite, and overlapping time periods will cause a test failure. Times are the time in the
+  # timezone active at that date (that is to say, if you specify 08:00:00 as a start date, that banner
+  # will become active at 8am whether the current timezone is GMT or BST)
+  #
+  global_banner:
+  - title: "Bring photo ID to vote"
+    title_href: "/how-to-vote/photo-id-youll-need"
+    link_text: "Check what photo ID you'll need to vote in person in the General Election on 4 July."
+    starts_at: "2024-05-04T08:00:00"
+    ends_at: "2024-07-04T22:00:00"
