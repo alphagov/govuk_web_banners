@@ -1,4 +1,4 @@
-# Example usage of adding a banner to the banners list:
+# Example usage of adding a banner to the banners list
 
   # - name: Banner 1
   #   suggestion_text: "Help improve GOV.UK"
@@ -7,10 +7,7 @@
   #   page_paths:
   #     - /
   #     - /foreign-travel-advice
-  banners:
-  - name: Find Council Banner
-    suggestion_text: "Help improve GOV.UK"
-    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-    survey_url: https://google.com
-    page_paths:
-      - /find-local-council
+
+# Note that this file must contain a valid banners array, so if there are no banners
+# currently included, the file should at least contain banners: []
+banners: []

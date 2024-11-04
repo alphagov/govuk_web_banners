@@ -9,8 +9,6 @@ class RecruitmentBanner
     recruitment_banners_urls_file_path = Rails.root.join(__dir__,
                                                          "../../config/govuk_web_banners/recruitment_banners.yml")
     recruitment_banners_data = YAML.load_file(recruitment_banners_urls_file_path)
-    return [] unless recruitment_banners_data["banners"].present?
-
     recruitment_banners_data["banners"].map { |attributes| RecruitmentBanner.new(attributes:) }
   end
 

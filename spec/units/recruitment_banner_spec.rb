@@ -1,5 +1,9 @@
 RSpec.describe RecruitmentBanner do
   context "current configuration" do
+    it "contains the root banners: key (or banners: [] if there are no entries)" do
+      expect { described_class.all_banners }.not_to raise_error
+    end
+
     it "does not contain invalid banners" do
       expect(described_class.all_banners.all?(&:valid?)).to eq(true)
     end
@@ -48,6 +52,18 @@ RSpec.describe RecruitmentBanner do
       describe ".all_banners" do
         it "confirms invalid banners exist" do
           expect(described_class.all_banners.none?(&:valid?)).to eq(true)
+        end
+      end
+    end
+
+    context "with an empty file" do
+      let(:replacement_file) do
+        YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/empty_recruitment_banners.yml"))
+      end
+
+      describe ".all_banners" do
+        it "raises an error" do
+          expect { described_class.all_banners }.to raise_error(NoMethodError)
         end
       end
     end
