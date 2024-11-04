@@ -10,7 +10,7 @@ RSpec.describe RecruitmentBanner do
 
     it "does not contain banners pointing to the same path" do
       all_paths = []
-      described_class.all_banners.each { |banner| all_paths << banner.page_paths }
+      described_class.all_banners.each { |banner| all_paths += banner.page_paths }
 
       expect(all_paths.uniq.count).to eq(all_paths.count)
     end
