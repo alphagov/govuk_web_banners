@@ -1,0 +1,25 @@
+# Fixture - some invalid elements
+banners:
+  - name: Empty Survey URL
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url:
+    page_paths:
+      - /
+      - /foreign-travel-advice
+  - name: Suggestion Link Text Broken
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /email-signup
+  - name: Page Paths Empty
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+  - name: Suggestion Text Empty
+    suggestion_text:
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - view
