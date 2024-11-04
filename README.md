@@ -21,6 +21,22 @@ Or install it yourself as:
 $ gem install govuk_web_banners
 ```
 
+Add the JS dependencies to your existing asset dependencies file:
+
+```
+//= require govuk_web_banners/dependencies
+```
+
+Add a call to the partial in the layout or view that you want banners to appear in:
+
+```
+  <%= render partial: "govuk_web_banners/recruitment_banner" if recruitment_banner.present? %>
+```
+
+(The if clause is not strictly necessary, the partial is also guarded by it.) Make sure that
+the include is above the render_component_stylesheets call if your app is using individual
+component stylesheets.
+
 ## Contributing
 Contribution directions go here.
 
