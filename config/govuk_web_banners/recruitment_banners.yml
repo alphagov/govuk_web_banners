@@ -10,4 +10,17 @@
 
 # Note that this file must contain a valid banners array, so if there are no banners
 # currently included, the file should at least contain banners: []
-banners: []
+banners:
+- name: Banner 1
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+    - /
+    - /foreign-travel-advice
+- name: Banner 2
+  suggestion_text: "Help improve GOV.UK a lot"
+  suggestion_link_text: "Click here (opens in a new tab)"
+  survey_url: https://gov.uk
+  page_paths:
+    - /find-local-council
