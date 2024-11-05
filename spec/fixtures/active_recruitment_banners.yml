@@ -1,0 +1,15 @@
+# Fixture - valid elements
+banners:
+  - name: Banner 1
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /
+      - /foreign-travel-advice
+  - name: Banner 2
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /email-signup
