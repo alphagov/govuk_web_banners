@@ -16,4 +16,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].sort.each { |f| require f }
 
 GovukTest.configure
 
-RSpec.configure(&:infer_spec_type_from_file_location!)
+RSpec.configure do |config|
+  config.infer_spec_type_from_file_location!
+  config.include ActiveSupport::Testing::TimeHelpers
+end

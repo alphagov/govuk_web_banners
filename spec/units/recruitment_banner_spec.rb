@@ -1,11 +1,15 @@
 RSpec.describe RecruitmentBanner do
+  def valid?(banner)
+    banner.suggestion_text.present? && banner.suggestion_link_text.present? && banner.survey_url.present? && banner.page_paths.present?
+  end
+
   context "current configuration" do
     it "contains the root banners: key (or banners: [] if there are no entries)" do
       expect { described_class.all_banners }.not_to raise_error
     end
 
     it "does not contain invalid banners" do
-      expect(described_class.all_banners.all?(&:valid?)).to eq(true)
+      expect(described_class.all_banners.all? { |banner| valid?(banner) }).to eq(true)
     end
 
     it "does not contain banners pointing to the same path" do
@@ -44,6 +48,23 @@ RSpec.describe RecruitmentBanner do
       end
     end
 
+    context "with timed banners" do
+      let(:replacement_file) do
+        YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/timed_recruitment_banners.yml"))
+      end
+
+      before { travel_to Time.local(2025, 1, 1) }
+      after { travel_back }
+
+      describe ".all_banners" do
+        it "returns an array with only banners that are active now" do
+          expect(described_class.all_banners.count).to eq(2)
+          expect(described_class.all_banners.first.name).to eq("Banner that has started and hasn't ended yet")
+          expect(described_class.all_banners.second.name).to eq("Banner that has started and has no end date")
+        end
+      end
+    end
+
     context "with broken banners" do
       let(:replacement_file) do
         YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/broken_recruitment_banners.yml"))
@@ -51,7 +72,7 @@ RSpec.describe RecruitmentBanner do
 
       describe ".all_banners" do
         it "confirms invalid banners exist" do
-          expect(described_class.all_banners.none?(&:valid?)).to eq(true)
+          expect(described_class.all_banners.none? { |banner| valid?(banner) }).to eq(true)
         end
       end
     end

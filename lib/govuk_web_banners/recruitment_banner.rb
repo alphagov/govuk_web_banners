@@ -9,10 +9,10 @@ class RecruitmentBanner
     recruitment_banners_urls_file_path = Rails.root.join(__dir__,
                                                          "../../config/govuk_web_banners/recruitment_banners.yml")
     recruitment_banners_data = YAML.load_file(recruitment_banners_urls_file_path)
-    recruitment_banners_data["banners"].map { |attributes| RecruitmentBanner.new(attributes:) }
+    recruitment_banners_data["banners"].map { |attributes| RecruitmentBanner.new(attributes:) }.select(&:active?)
   end
 
-  attr_reader :name, :suggestion_text, :suggestion_link_text, :survey_url, :page_paths
+  attr_reader :name, :suggestion_text, :suggestion_link_text, :survey_url, :page_paths, :start_date, :end_date
 
   def initialize(attributes:)
     @name = attributes["name"]
@@ -20,9 +20,14 @@ class RecruitmentBanner
     @suggestion_link_text = attributes["suggestion_link_text"]
     @survey_url = attributes["survey_url"]
     @page_paths = attributes["page_paths"]
+    @start_date = attributes["start_date"] ? Date.parse(attributes["start_date"]) : nil
+    @end_date = attributes["end_date"] ? Date.parse(attributes["end_date"]) : nil
   end
 
-  def valid?
-    suggestion_text.present? && suggestion_link_text.present? && survey_url.present? && page_paths.present?
+  def active?
+    return false if @start_date && start_date >= Time.zone.now
+    return false if @end_date && end_date < Time.zone.now
+
+    true
   end
 end

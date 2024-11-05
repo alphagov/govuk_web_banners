@@ -1,0 +1,31 @@
+# Fixture - valid but timed elements. Names assume current date is 01/01/2025
+banners:
+  - name: Banner that hasn't started yet
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /page-1
+    start_date: 12/02/2025
+  - name: Banner that has started and hasn't ended yet
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /page-2
+    start_date: 01/12/2024
+    end_date: 12/04/2025
+  - name: Banner that has started and has no end date
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /page-3
+    start_date: 01/12/2024
+  - name: Banner that has already ended
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://google.com
+    page_paths:
+      - /page-4
+    end_date: 25/12/2024
