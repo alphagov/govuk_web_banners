@@ -7,7 +7,11 @@
   #   page_paths:
   #     - /
   #     - /foreign-travel-advice
+  #   start_date: 21/10/2024
+  #   end_date: 18/11/2024
 
+# start_date and end_date are optional, everything else is mandatory.
+#
 # Note that this file must contain a valid banners array, so if there are no banners
 # currently included, the file should at least contain banners: []
 banners:
@@ -18,3 +22,5 @@ banners:
   page_paths:
     - /guidance/keeping-your-hmrc-login-details-safe
     - /government/collections/hmrc-phishing-and-scams-detailed-information
+  start_date: 21/10/2024
+  end_date: 18/11/2024
