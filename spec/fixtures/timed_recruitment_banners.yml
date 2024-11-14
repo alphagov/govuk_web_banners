@@ -1,0 +1,38 @@
+# Fixture - valid banners with time restrictions
+banners:
+- name: Banner with no end_date
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-1
+  start_date: 01/01/2025
+- name: banner with no start_date
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-2
+  end_date: 01/01/2025
+- name: Banner with start and end date
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-3
+  start_date: 01/01/2025
+  end_date: 01/02/2025
+- name: Banner with start and end date abutting previous banner
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-3
+  start_date: 01/02/2025
+  end_date: 01/03/2025
+- name: Banner with no dates
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-4

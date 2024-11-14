@@ -1,0 +1,18 @@
+# Fixture - invalid because banners point to the same path and overlap in time
+banners:
+- name: Banner feb-apr
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-1
+  start_date: 12/02/2025
+  end_date: 12/04/2025
+- name: Banner jan-mar
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /page-1
+  start_date: 12/01/2025
+  end_date: 12/03/2025
