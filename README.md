@@ -64,6 +64,25 @@ Optional keys are `name` (an identifying name for this banner, not rendered anyw
 (the banner becomes active at the start of the day specified as `start_date`, and stops at the *start* of the day
 specified as `end_date`). Start and end dates must be in the DD/MM/YYYY format parsable as a YAML -> Date.
 
+### Keeping the config file valid and tidy
+
+The config file will be checked during CI, so an invalid file can't be released as a gem and we are forced
+to make sure it's kept tidy. These checks include:
+
+* the banners array must be a valid YAML array
+* all banners have a suggestion_text, suggestion_link_text, survey_url and page_paths
+* the same page_path is not present on two banners that are active at the same time
+* paths must start with a forward-slash (/)
+
+It will also display warnings (but not fail CI)
+
+* if there are banners that have expired - you are encouraged to remove obsolete config, but it will not
+  prevent you merging changes.
+* if page_paths point to pages that are not currently live on GOV.UK - this may be intentional (if the banner
+  is for a page that isn't yet published), or it may indicate a typo in the path.
+
+Note that some of this validation code is in the lib/govuk_web_banners/validators path, which
+should be tested to ensure the checking is valid, but will not be bundled into the released gem.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
