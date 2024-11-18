@@ -603,6 +603,7 @@ DEPENDENCIES
   govuk_test
   govuk_web_banners!
   puma
+  rainbow
   rspec-rails
   rubocop-govuk
   simplecov
