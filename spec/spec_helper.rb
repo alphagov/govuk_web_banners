@@ -11,6 +11,7 @@ require "rspec/rails"
 
 require "byebug"
 require "govuk_test"
+require "webmock/rspec"
 
 Dir[Rails.root.join("spec/support/**/*.rb")].sort.each { |f| require f }
 
