@@ -1,3 +1,5 @@
+$LOAD_PATH.push File.expand_path("lib", __dir__)
+
 require_relative "lib/govuk_web_banners/version"
 
 Gem::Specification.new do |spec|
