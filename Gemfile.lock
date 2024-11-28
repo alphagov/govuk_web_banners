@@ -2,8 +2,10 @@ PATH
   remote: .
   specs:
     govuk_web_banners (0.1.0)
+      govuk_app_config
       govuk_publishing_components
       rails (>= 7)
+      redis
 
 GEM
   remote: https://rubygems.org/
@@ -467,6 +469,10 @@ GEM
     rake (13.2.1)
     rdoc (6.8.1)
       psych (>= 4.0.0)
+    redis (5.3.0)
+      redis-client (>= 0.22.0)
+    redis-client (0.22.2)
+      connection_pool
     regexp_parser (2.9.3)
     reline (0.5.11)
       io-console (~> 0.5)
