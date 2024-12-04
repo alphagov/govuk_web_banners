@@ -39,10 +39,10 @@ module GovukWebBanners
 
       def validate(banners)
         banners.each do |banner|
-          add_error(banner, "is missing a suggestion_text") unless banner.suggestion_text.present?
-          add_error(banner, "is missing a suggestion_link_text") unless banner.suggestion_link_text.present?
-          add_error(banner, "is missing a survey_url") unless banner.survey_url.present?
-          add_error(banner, "is missing any page_paths") unless banner.page_paths.present?
+          add_error(banner, "is missing a suggestion_text") if banner.suggestion_text.blank?
+          add_error(banner, "is missing a suggestion_link_text") if banner.suggestion_link_text.blank?
+          add_error(banner, "is missing a survey_url") if banner.survey_url.blank?
+          add_error(banner, "is missing any page_paths") if banner.page_paths.blank?
 
           (banner.page_paths || []).each do |path|
             if path.start_with?("/")
