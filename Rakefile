@@ -16,7 +16,7 @@ require "govuk_web_banners/validators/recruitment_banner"
 require "rainbow"
 
 desc "show errors in the live config"
-task :check_config do
+task check_config: :environment do
   validator = GovukWebBanners::Validators::RecruitmentBanner.new(GovukWebBanners::RecruitmentBanner.all_banners)
 
   if !validator.valid?

@@ -26,7 +26,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
 
       after { travel_back }
 
-      context "Before timed banners are active" do
+      context "when timed banners are active" do
         before { travel_to Time.local(2024, 12, 31) }
 
         it "finds only banners with no start time" do
@@ -37,7 +37,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "The day banners 1 and 3 become active and banner 2 ends" do
+      context "when banners 1 and 3 become active and banner 2 ends" do
         before { travel_to Time.local(2025, 1, 1) }
 
         it "finds only banners active on that date" do
@@ -52,7 +52,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "The day the page-3 banner swaps" do
+      context "when the page-3 banner swaps" do
         before { travel_to Time.local(2025, 2, 1) }
 
         it "finds only banners active on that date" do
@@ -67,7 +67,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "After all timed banners end" do
+      context "when all timed banners have ended" do
         before { travel_to Time.local(2025, 3, 1) }
 
         it "finds only banners active on that date" do
