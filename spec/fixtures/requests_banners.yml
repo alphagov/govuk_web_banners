@@ -1,8 +1,8 @@
 # Fixture - elements for request tests with dummy app
 banners:
 - name: Banner 1
-  suggestion_text: "This banner appears at /pages-with-banners!"
+  suggestion_text: "This banner appears at /recruitment-with-banners!"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
   survey_url: https://google.com
   page_paths:
-  - /page-with-banners
+  - /recruitment-with-banners
