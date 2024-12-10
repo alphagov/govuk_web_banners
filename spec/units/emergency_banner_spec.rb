@@ -1,6 +1,9 @@
 RSpec.describe GovukWebBanners::EmergencyBanner do
-  let(:redis_client) { double(hgetall: {}) }
-  subject(:emergency_banner) { GovukWebBanners::EmergencyBanner.new(redis_client:) }
+  subject(:emergency_banner) { GovukWebBanners::EmergencyBanner.new }
+
+  before do
+    Rails.application.config.emergency_banner_redis_client = double(hgetall: {})
+  end
 
   describe "caching" do
     context "with a Rails cache" do
@@ -8,15 +11,15 @@ RSpec.describe GovukWebBanners::EmergencyBanner do
         allow(Rails).to receive(:cache).and_return(ActiveSupport::Cache.lookup_store(:memory_store))
         Rails.cache.clear
 
-        GovukWebBanners::EmergencyBanner.new(redis_client:)
-        GovukWebBanners::EmergencyBanner.new(redis_client:)
+        GovukWebBanners::EmergencyBanner.new
+        GovukWebBanners::EmergencyBanner.new
 
-        expect(redis_client).to have_received(:hgetall).once
+        expect(Rails.application.config.emergency_banner_redis_client).to have_received(:hgetall).once
 
         travel_to(Time.now + 61.seconds)
 
-        GovukWebBanners::EmergencyBanner.new(redis_client:)
-        expect(redis_client).to have_received(:hgetall).twice
+        GovukWebBanners::EmergencyBanner.new
+        expect(Rails.application.config.emergency_banner_redis_client).to have_received(:hgetall).twice
 
         travel_back
       end
@@ -31,7 +34,9 @@ RSpec.describe GovukWebBanners::EmergencyBanner do
     end
 
     context "with the emergency banner active" do
-      let(:redis_client) { double(hgetall: { heading: "Emergency!", campaign_class: "notable-death" }) }
+      before do
+        Rails.application.config.emergency_banner_redis_client = double(hgetall: { heading: "Emergency!", campaign_class: "notable-death" })
+      end
 
       it "returns true" do
         expect(emergency_banner.active?).to be true
@@ -40,7 +45,9 @@ RSpec.describe GovukWebBanners::EmergencyBanner do
 
     context "if the call to Redis fails" do
       before do
+        redis_client = double
         allow(redis_client).to receive(:hgetall).with("emergency_banner").and_raise(StandardError)
+        Rails.application.config.emergency_banner_redis_client = redis_client
       end
 
       it "returns false" do

@@ -5,8 +5,8 @@ module GovukWebBanners
   class EmergencyBanner
     attr_reader :campaign_class, :heading, :short_description, :link, :link_text
 
-    def initialize(redis_client:)
-      content = content_from_redis(redis_client)
+    def initialize
+      content = content_from_redis
 
       @campaign_class = content[:campaign_class].presence
       @heading = content[:heading].presence
@@ -21,9 +21,13 @@ module GovukWebBanners
 
   private
 
-    def content_from_redis(client)
+    def redis_client
+      Rails.application.config.emergency_banner_redis_client
+    end
+
+    def content_from_redis
       Rails.cache.fetch("#emergency_banner/config", expires_in: 1.minute) do
-        client.hgetall("emergency_banner").try(:symbolize_keys)
+        redis_client.hgetall("emergency_banner").try(:symbolize_keys)
       end
     rescue StandardError => e
       GovukError.notify(e, extra: { context: "Emergency Banner Redis" })

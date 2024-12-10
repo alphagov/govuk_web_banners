@@ -1,4 +1,4 @@
-<% emergency_banner = GovukWebBanners::EmergencyBanner.new(redis_client: Rails.application.config.emergency_banner_redis_client) %>
+<% emergency_banner = GovukWebBanners::EmergencyBanner.new %>
 <% if emergency_banner.active? %>
   <%= render "govuk_publishing_components/components/emergency_banner", {
       campaign_class: emergency_banner.campaign_class,
