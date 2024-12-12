@@ -1,13 +1,15 @@
 RSpec.describe GovukWebBanners::RecruitmentBanner do
+  let(:fixtures_dir) { Rails.root.join(__dir__, "../../fixtures/") }
+
   before do
-    original_path = Rails.root.join(__dir__, described_class::BANNER_CONFIG_FILE)
+    original_path = Rails.root.join(__dir__, "../", described_class::BANNER_CONFIG_FILE)
     allow(YAML).to receive(:load_file).with(original_path).and_return(replacement_file)
   end
 
   describe ".for_path" do
     context "with banners" do
       let(:replacement_file) do
-        YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/active_recruitment_banners.yml"))
+        YAML.load_file(Rails.root.join(fixtures_dir, "active_recruitment_banners.yml"))
       end
 
       it "returns banner that includes the path" do
@@ -21,12 +23,12 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
 
     context "with timed banners" do
       let(:replacement_file) do
-        YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/timed_recruitment_banners.yml"))
+        YAML.load_file(Rails.root.join(fixtures_dir, "timed_recruitment_banners.yml"))
       end
 
       after { travel_back }
 
-      context "Before timed banners are active" do
+      context "but before timed banners are active" do
         before { travel_to Time.local(2024, 12, 31) }
 
         it "finds only banners with no start time" do
@@ -37,7 +39,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "The day banners 1 and 3 become active and banner 2 ends" do
+      context "and on the day banners 1 and 3 become active and banner 2 ends" do
         before { travel_to Time.local(2025, 1, 1) }
 
         it "finds only banners active on that date" do
@@ -52,7 +54,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "The day the page-3 banner swaps" do
+      context "and on the day the page-3 banner swaps" do
         before { travel_to Time.local(2025, 2, 1) }
 
         it "finds only banners active on that date" do
@@ -67,7 +69,7 @@ RSpec.describe GovukWebBanners::RecruitmentBanner do
         end
       end
 
-      context "After all timed banners end" do
+      context "but after all timed banners end" do
         before { travel_to Time.local(2025, 3, 1) }
 
         it "finds only banners active on that date" do
