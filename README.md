@@ -3,7 +3,7 @@ Proof of Concept for centralising handling of Recruitment, Global, and Emergency
 banners (currently spread across apps)
 
 ## Usage
-Currently supports recruitment banners
+Currently supports the emergency banner and recruitment banners.
 
 ## Adding the gem to your application
 Add this line to your application's Gemfile:
@@ -26,6 +26,39 @@ Add the JS dependencies to your existing asset dependencies file:
 
 ```
 //= require govuk_web_banners/dependencies
+```
+
+## Adding emergency banners
+
+Emergency banners are passed to the [Layout for Public](https://components.publishing.service.gov.uk/component-guide/layout_for_public) component, which is currently applied to each frontend app by the slimmer/static wrapping code - so you will only need to handle emergency banners in your app when Slimmer is removed from it. Once Slimmer is removed and you are calling the layout_for_public component directly in your app, add the emergency banner partial to the component's `emergency_banner:` key:
+
+```
+<%= render "govuk_publishing_components/components/layout_for_public", {
+  draft_watermark: draft_environment,
+  emergency_banner: render("govuk_web_banners/emergency_banner"), # <-- Add this line
+  full_width: false,
+  ...etc
+```
+
+if you want the homepage variant of the banner, you can add `homepage: true` to the render call:
+
+```
+<%= render "govuk_publishing_components/components/layout_for_public", {
+  draft_watermark: draft_environment,
+  emergency_banner: render("govuk_web_banners/emergency_banner", homepage: true), # <-- Add this line
+  full_width: full_width,
+  ...etc
+```
+
+Your app will also need access to the whitehall shared redis cluster (which is used to signal the emergency banner is up), via the `EMERGENCY_BANNER_REDIS_URL` environment variable (here is an example of [setting this in govuk-helm-charts](https://github.com/alphagov/govuk-helm-charts/blob/7818eaa22fc194d21548f316bcc5a46c2023dcb6/charts/app-config/values-staging.yaml#L3337-L3338)). You'll need to allow this in all three environments.
+
+Finally, you'll need to configure a connection to the redis cluster, available at `Rails.application.config.emergency_banner_redis_client`. The suggested way of doing this is creating an initializer at `/config/initializers/govuk_web_banners.rb` with the content:
+
+```
+Rails.application.config.emergency_banner_redis_client = Redis.new(
+  url: ENV["EMERGENCY_BANNER_REDIS_URL"],
+  reconnect_attempts: [15, 30, 45, 60],
+)
 ```
 
 ## Adding recruitment banners

@@ -11,17 +11,17 @@ RSpec.describe "Recruitment Banners" do
 
     context "with an active banner" do
       it "shows a banner in the page" do
-        get "/page-with-banners"
+        get "/recruitment-with-banners"
 
-        expect(response.body).to include("This banner appears at /pages-with-banners!")
+        expect(response.body).to include("This banner appears at /recruitment-with-banners!")
       end
     end
 
     context "with no active banner" do
       it "does not show a banner in the page" do
-        get "/page-with-no-banners"
+        get "/recruitment-with-no-banners"
 
-        expect(response.body).not_to include("This banner appears at /pages-with-banners!")
+        expect(response.body).not_to include("This banner appears at /recruitment-with-banners!")
       end
     end
   end
