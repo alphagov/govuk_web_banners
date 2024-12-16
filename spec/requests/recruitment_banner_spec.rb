@@ -4,7 +4,7 @@ RSpec.describe "Recruitment Banners" do
     allow(YAML).to receive(:load_file).with(original_path).and_return(replacement_file)
   end
 
-  context "getting a path with the banner partial" do
+  context "when visiting a path with the banner partial" do
     let(:replacement_file) do
       YAML.load_file(Rails.root.join(__dir__, "../../spec/fixtures/requests_banners.yml"))
     end
