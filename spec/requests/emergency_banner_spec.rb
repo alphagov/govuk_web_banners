@@ -1,12 +1,11 @@
 RSpec.describe "Emergency Banners" do
-  context "getting a path with the banner partial" do
+  before do
+    Rails.application.config.emergency_banner_redis_client = redis_client
+  end
+
+  context "when getting a path with the banner partial" do
     context "with the emergency banner active" do
-      before do
-        allow_any_instance_of(Redis).to receive(:hgetall).with("emergency_banner").and_return(
-          heading: "Emergency!",
-          campaign_class: "notable-death",
-        )
-      end
+      let(:redis_client) { instance_double(Redis, hgetall: { heading: "Emergency!", campaign_class: "notable-death" }) }
 
       it "shows a banner in the page" do
         get "/emergency"
@@ -24,9 +23,7 @@ RSpec.describe "Emergency Banners" do
     end
 
     context "with the emergency banner inactive" do
-      before do
-        allow_any_instance_of(Redis).to receive(:hgetall).with("emergency_banner").and_return({})
-      end
+      let(:redis_client) { instance_double(Redis, hgetall: {}) }
 
       it "does not show a banner in the page" do
         get "/emergency"
