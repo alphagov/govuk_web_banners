@@ -3,39 +3,8 @@ require "open-uri"
 
 module GovukWebBanners
   module Validators
-    class RecruitmentBanner
-      attr_reader :errors, :warnings
-
-      def initialize(banners)
-        @errors = {}
-        @warnings = {}
-
-        validate(banners)
-      end
-
-      def valid?
-        @errors.keys.none?
-      end
-
-      def warnings?
-        @warnings.keys.any?
-      end
-
+    class RecruitmentBanner < GovukWebBanners::Validators::Base
     private
-
-      def add_error(banner, error)
-        @errors[safe_name(banner)] ||= []
-        @errors[safe_name(banner)] << error
-      end
-
-      def add_warning(banner, warning)
-        @warnings[safe_name(banner)] ||= []
-        @warnings[safe_name(banner)] << warning
-      end
-
-      def safe_name(banner)
-        banner.name || "unnamed banner"
-      end
 
       def validate(banners)
         banners.each do |banner|
@@ -43,6 +12,7 @@ module GovukWebBanners
           add_error(banner, "is missing a suggestion_link_text") unless banner.suggestion_link_text.present?
           add_error(banner, "is missing a survey_url") unless banner.survey_url.present?
           add_error(banner, "is missing any page_paths") unless banner.page_paths.present?
+          add_error(banner, "start_date is after end_date") unless banner.start_date < banner.end_date
 
           (banner.page_paths || []).each do |path|
             if path.start_with?("/")

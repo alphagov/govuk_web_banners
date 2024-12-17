@@ -1,0 +1,10 @@
+<% global_banner = GovukWebBanners::GlobalBanner.for_path(request.path) %>
+<% if global_banner.present? %>
+  <div>GLOBAL BANNER!</div>
+  <%#= render "govuk_publishing_components/components/global_bar", {
+      title: global_banner.title,
+      title_href: global_banner.title_href,
+      text: global_banner.text,
+      text_href: global_banner.text_href,
+  } %>
+<% end %>

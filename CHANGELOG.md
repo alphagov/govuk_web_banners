@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 ## UNRELEASED
 
+* Add global banner support
 * Add emergency banner support ([PR #22](https://github.com/alphagov/govuk_web_banners/pull/22))
 
 ## 0.2.0
