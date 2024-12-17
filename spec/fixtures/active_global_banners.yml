@@ -1,0 +1,5 @@
+global_banners:
+- name: Active Banner
+  title: Something
+  title_href: /global-linked-to
+  text: You should click this link
