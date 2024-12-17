@@ -1,3 +1,4 @@
+require "govuk_web_banners/validators/base"
 require "govuk_web_banners/validators/recruitment_banner"
 
 RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
