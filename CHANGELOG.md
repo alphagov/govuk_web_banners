@@ -6,8 +6,9 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-## Unreleased
+## UNRELEASED
 
+* Add global banner support ([PR #34](https://github.com/alphagov/govuk_web_banners/pull/34))
 * Remove configuration for "HMRC banner 03/01/2025" ([PR #53](https://github.com/alphagov/govuk_web_banners/pull/53))
 * Gem updates ([PR #50](https://github.com/alphagov/govuk_web_banners/pull/50))
 
