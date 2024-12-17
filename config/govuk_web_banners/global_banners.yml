@@ -1,0 +1,16 @@
+# Example usage of adding a banner to the global_banners list
+
+  # global_banners:
+  # - name: Banner 1
+  #   title: "Register to vote"
+  #   title_href: "https://www.gov.uk/register-to-vote"
+  #   link_text: "This text is actually descriptive"
+  #   start_date: 11/09/2023
+  #   end_date: 18/11/2024
+
+# start_date and end_date are optional, there must be either a link_href or a title_href
+# (not both), and everything else is mandatory.
+#
+# Note that this file must contain a valid global_banners array, so if there are no banners
+# currently included, the file should at least contain global_banners: []
+global_banners: []
