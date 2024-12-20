@@ -61,3 +61,15 @@ banners:
     - /guidance/tax-disputes-alternative-dispute-resolution-adr
   start_date: 03/01/2025
   end_date: 31/01/2025
+- name: UKVI banner 30/12/2025
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/XYVRGN/
+  page_paths:
+    # frontend
+    - /contact-ukvi-inside-outside-uk
+    # collections
+    - /browse/visas-immigration
+    - /government/organisations/uk-visas-and-immigration
+  start_date: 30/12/2024
+  end_date: 27/01/2025
