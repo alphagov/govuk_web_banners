@@ -1,0 +1,7 @@
+global_banners:
+- name: Expired Banner
+  items:
+  - title: Something
+    title_path: /global-linked-to
+    info_text: You should click this link
+  end_date: 25/12/2023

@@ -1,0 +1,9 @@
+global_banners:
+- name: Active Banner
+  items:
+  - title: Something
+    title_path: /global-linked-to
+    info_text: You should click this link
+  exclude_paths:
+  - /global-related-to
+

@@ -7,6 +7,7 @@ When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
 ## UNRELEASED
+* Add global banner support
 * Remove configuration for "AI banner 11/11/2024"
 
 ## 0.3.0

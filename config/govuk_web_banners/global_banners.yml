@@ -1,0 +1,24 @@
+# Example usage of adding a banner to the global_banners list
+
+  # global_banners:
+  # - name: Banner 1
+  #   items:
+  #   - title: "Register to vote"
+  #     title_path: /register-to-vote
+  #     info_text: "This text is actually descriptive"
+  #   start_date: 11/09/2023
+  #   end_date: 18/11/2024
+  #   show_arrows: false
+  #   permanent: false
+  #   exclude_paths:
+  #   - /
+  #   - /coronavirus
+
+
+# There must be an items array with one or more items and each item must
+# have a title, title_path, and info_text. All other elements are optional
+#
+# Note that this file must contain a valid global_banners array, so if there
+# are no banners currently included, the file should at least
+# contain global_banners: []
+global_banners: []
