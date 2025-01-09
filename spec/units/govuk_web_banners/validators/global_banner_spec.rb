@@ -44,11 +44,15 @@ RSpec.describe GovukWebBanners::Validators::GlobalBanner do
 
     describe "errors attribute" do
       it "returns the relevant errors" do
-        expect(validator.errors["Banner without href"]).to eq(["is missing a title_href or text_href"])
-        expect(validator.errors["Banner with double href"]).to eq(["has both a title_href and a text_href"])
-        expect(validator.errors["Banner without title"]).to eq(["is missing a title"])
-        expect(validator.errors["Banner without text"]).to eq(["is missing a text"])
-        expect(validator.errors["Invalid href"]).to eq(["href hello should start with a /"])
+        expect(validator.errors["Banner without an items list"]).to eq(["must have at least one item in the items list"])
+        expect(validator.errors["Banner with an empty items list"]).to eq(["must have at least one item in the items list"])
+        expect(validator.errors["Banner without title_path"]).to eq(["item 0 is missing a title_path"])
+        expect(validator.errors["Banner without title"]).to eq(["item 0 is missing a title"])
+        expect(validator.errors["Banner without info_text"]).to eq(["item 0 is missing an info_text"])
+        expect(validator.errors["Invalid title_path"]).to eq([
+          "item 0 title_path hello should start with a /",
+          "exclude_path hello should start with a /",
+        ])
         expect(validator.errors["Dates inverted"]).to eq(["start_date is after end_date"])
       end
     end
@@ -125,7 +129,10 @@ RSpec.describe GovukWebBanners::Validators::GlobalBanner do
 
     describe "warnings attribute" do
       it "returns the relevant warnings" do
-        expect(validator.warnings).to eq({ "Active Banner" => ["refers to a path /global-linked-to which is not currently live on gov.uk"] })
+        expect(validator.warnings).to eq({ "Active Banner" => [
+          "item 0 refers to a path /global-linked-to which is not currently live on gov.uk",
+          "refers to an exclude_path /global-linked-to which is not currently live on gov.uk",
+        ] })
       end
     end
   end

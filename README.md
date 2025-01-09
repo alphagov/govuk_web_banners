@@ -105,22 +105,35 @@ valid, so if there are no banners in the file, it must contain at least
 ```
 global_banners:
 - name: Banner 1
-  title: "Help improve GOV.UK"
-  title_href: https://google.com
-  link_text: "More information"
-  link_href: https://google.com
+  items:
+  - title: "Register to Vote"
+    title_path: /register-to-vote
+    info_text: "You must register to vote before the election"
+  show_arrows: false
+  permanent: false
+  exclude_paths:
+  - /find-your-local-electoral-office
   start_date: 21/10/2024
   end_date: 18/11/2024
 ```
+Unlike the other banners, a global banner can contain more than one item, so
+each banner record must contain an `items` array with one or more items, each
+of which must include a `title`, `title_path`, and `info_text`
 
-The required keys are `title`, `link_text`, and one of title_href or link_href
-(the validation will fail if both are specified).
-
-Optional keys are `name` (an identifying name for this banner, not rendered
-anywhere), and `start_date` / `end_date` (the banner becomes active at the start
-of the day specified as `start_date`, and stops at the *start* of the day
-specified as `end_date`). Start and end dates must be in the DD/MM/YYYY format
-parsable as a YAML -> Date.
+Optional keys are:
+- `name` (an identifying name for this banner, not rendered
+  anywhere)
+- `show_arrows` (defaults to false, if true shows arrows before each
+  item)
+- `permanent` (defaults to false. If false, banner is hidden if the user
+  has consented to cookies and has seen this banner more than 3 times)
+- `exclude_paths` an array of paths on which the banner should not be shown.
+  Note that the banner is never shown on the path it points to, this
+  list is to include any additional pages.
+- `start_date` / `end_date` (the banner becomes active at the start
+  of the day specified as `start_date`, and stops at the *start* of the day
+  specified as `end_date`). Start and end dates must be in the DD/MM/YYYY
+  format parsable as a YAML -> Date.
 
 ### Validations on the global banners config file
 
@@ -128,28 +141,30 @@ The config file will be checked during CI, so an invalid file can't be released
 as a gem and we are nudged to make sure it's kept tidy. These checks include:
 
 * the global_banners array must be a valid YAML array
-* all banners have a title, link_text, and either a title_href or a link_href
-  (not both)
-* two global banners are not active on the same day
+* all banners have at least one item, and each item must have a title,
+  title_href, and info_text.
+* two global banners may not be active on the same day
 
 It will also display warnings (but not fail CI)
 
-* if there are banners that have expired - you are encouraged to remove obsolete
-  config, but it will not prevent you merging changes.
-* if title_href/link_href point to pages that are not currently live on GOV.UK -
-  this may be intentional (if the banner points to a page that isn't yet
-  published), or it may indicate a typo in the path.
+* if there are banners that have expired - you are encouraged to remove
+  obsolete config, but it will not prevent you merging changes.
+* if title_href of any item points to a page that are not currently live on
+  GOV.UK - this may be intentional (if the banner points to a page that isn't
+  yet published), or it may indicate a typo in the path.
+* if any exclude_paths item points to a page that is not currently live on
+  GOV.UK - this may be intentional, or it may indicate a typo in the path.
 
 Note that some of this validation code is in the
-`/lib/govuk_web_banners/validators/emergency_banner.rb` file, which should be
+`/lib/govuk_web_banners/validators/global_banner.rb` file, which should be
 tested to ensure the checking is valid, but will not be bundled into the
 released gem.
 
 ## Adding recruitment banners
 
 Add a call to the partial in the layout or view that you want banners to appear
-in (typically recruitment banners should be in the layout, below the breadcrumbs
-and just above the `main` element):
+in (typically recruitment banners should be in the layout, below the
+breadcrumbs and just above the `main` element):
 
 ```
   <%= render "govuk_web_banners/recruitment_banner" %>

@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   get "/global", to: "banner_pages#global"
   get "/global-linked-to", to: "banner_pages#global"
+  get "/global-related-to", to: "banner_pages#global"
 end

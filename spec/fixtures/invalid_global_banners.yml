@@ -1,36 +1,41 @@
 global_banners:
-- name: Banner without href
-  title: Something
-  text: You should click this link
+- name: Banner without an items list
+  start_date: 1/1/2024
+  end_date: 2/1/2024
+- name: Banner with an empty items list
+  items: []
+  start_date: 3/1/2024
+  end_date: 4/1/2024
+- name: Banner without title_path
+  items:
+  - title: Something
+    info_text: You should click this link
   start_date: 1/1/2025
   end_date: 2/1/2025
-- name: Banner with double href
-  title: Something
-  title_href: /hello
-  text: You should click this link
-  text_href: /goodbye
-  start_date: 2/1/2025
-  end_date: 3/1/2025
 - name: Banner without title
-  title_href: /hello
-  text: You should click this link
+  items:
+  - title_path: /hello
+    info_text: You should click this link
   start_date: 3/1/2025
   end_date: 4/1/2025
-- name: Banner without text
-  title: Something
-  title_href: /hello
+- name: Banner without info_text
+  items:
+  - title: Something
+    title_path: /hello
   start_date: 4/1/2025
   end_date: 5/1/2025
-- name: Invalid href
-  title: Something
-  title_href: hello
-  text: You should click this link
+- name: Invalid title_path
+  items:
+  - title: Something
+    title_path: hello
+    info_text: You should click this link
   start_date: 5/1/2025
   end_date: 6/1/2025
 - name: Dates inverted
-  title: Something
-  title_href: /hello
-  text: You should click this link
+  items:
+  - title: Something
+    title_path: /hello
+    info_text: You should click this link
   end_date: 6/1/2025
   start_date: 7/1/2025
 

@@ -2,9 +2,11 @@
 <% if global_banner.present? %>
   <div>GLOBAL BANNER!</div>
   <%#= render "govuk_publishing_components/components/global_bar", {
-      title: global_banner.title,
-      title_href: global_banner.title_href,
-      text: global_banner.text,
-      text_href: global_banner.text_href,
+      title: global_banner.first.title,
+      title_path: global_banner.items.first.title_path,
+      info_text: global_banner.items.first.info_text,
+      show_arrows: global_banner.show_arrows,
+      permanent: global_banner.permanent,
+      timestamp: global_banner.timestamp,
   } %>
 <% end %>

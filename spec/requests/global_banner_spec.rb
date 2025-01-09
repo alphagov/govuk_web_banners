@@ -21,6 +21,12 @@ RSpec.describe "Global Banners" do
 
         expect(response.body).not_to include("GLOBAL BANNER!")
       end
+
+      it "does not show the banner on a page in the except_paths list" do
+        get "/global-related-to"
+
+        expect(response.body).not_to include("GLOBAL BANNER!")
+      end
     end
 
     context "but no banner is active" do
