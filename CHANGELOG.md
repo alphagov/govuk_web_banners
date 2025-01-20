@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 ## UNRELEASED
 
+* Extend "UKVI banner 30/12/2025" ([PR #47](https://github.com/alphagov/govuk_web_banners/pull/47))
 * Remove configuration for "AI banner 11/11/2024"
 * Remove the `govuk-width-container` CSS class from recruitment banner ([PR #44](https://github.com/alphagov/govuk_web_banners/pull/44))
 
