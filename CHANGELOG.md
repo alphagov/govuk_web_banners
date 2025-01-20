@@ -6,10 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-## UNRELEASED
+## 0.4.0
 
 * Extend "UKVI banner 30/12/2025" ([PR #47](https://github.com/alphagov/govuk_web_banners/pull/47))
-* Remove configuration for "AI banner 11/11/2024"
+* Remove configuration for "AI banner 11/11/2024" ([PR #43](https://github.com/alphagov/govuk_web_banners/pull/43))
 * Remove the `govuk-width-container` CSS class from recruitment banner ([PR #44](https://github.com/alphagov/govuk_web_banners/pull/44))
 
 ## 0.3.0
