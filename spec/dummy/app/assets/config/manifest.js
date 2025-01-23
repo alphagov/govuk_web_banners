@@ -6,7 +6,6 @@
 //= link govuk_publishing_components/vendor/lux/lux-reporter.js
 //= link govuk_publishing_components/rum-loader.js
 //= link govuk_publishing_components/load-analytics.js
-//= link govuk_publishing_components/ie.js
 
 //= link application.css
 //= link application.js

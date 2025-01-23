@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+## Unreleased
+
+* Gem updates ([PR #50](https://github.com/alphagov/govuk_web_banners/pull/50))
+
 ## 0.4.0
 
 * Extend "UKVI banner 30/12/2025" ([PR #47](https://github.com/alphagov/govuk_web_banners/pull/47))
