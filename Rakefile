@@ -12,6 +12,7 @@ require "bundler/gem_tasks"
 RuboCop::RakeTask.new
 RSpec::Core::RakeTask.new
 
+require "govuk_web_banners/validators/global_banner"
 require "govuk_web_banners/validators/recruitment_banner"
 require "rainbow"
 
@@ -36,7 +37,17 @@ def output_validator_info(validator, name)
   end
 end
 
-desc "show errors in the live config"
+desc "show errors in the live global banner config"
+task :check_global_config do
+  validator = GovukWebBanners::Validators::GlobalBanner.new(GovukWebBanners::GlobalBanner.all_banners)
+  output_validator_info(validator, "global banner")
+rescue StandardError => e
+  puts(e)
+  puts Rainbow("Live global banner config could not be read (if there are no banners, check global_banner key is marked as an empty array - global_banners: [])").red
+  exit(1)
+end
+
+desc "show errors in the live recruitment banner config"
 task :check_recruitment_config do
   validator = GovukWebBanners::Validators::RecruitmentBanner.new(GovukWebBanners::RecruitmentBanner.all_banners)
   output_validator_info(validator, "recruitment banner")
@@ -46,4 +57,4 @@ rescue StandardError => e
   exit(1)
 end
 
-task default: %i[check_recruitment_config rubocop spec]
+task default: %i[check_global_config check_recruitment_config rubocop spec]
