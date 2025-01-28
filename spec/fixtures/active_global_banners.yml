@@ -1,0 +1,9 @@
+global_banners:
+- name: Active Banner
+  title: Here is a global message
+  title_href: /global-linked-to
+  text: You should click this link
+  start_date: 2025/01/02
+  exclude_paths:
+  - /global-related-to
+

@@ -1,0 +1,13 @@
+global_banners:
+- name: Banner feb-apr
+  title: Something
+  title_href: /global-linked-to
+  text: You should click this link
+  start_date: 2025/2/12
+  end_date: 2025/4/12
+- name: Banner jan-mar
+  title: Something
+  title_href: /global-linked-to
+  text: You should click this link
+  start_date: 2025/1/12
+  end_date: 2025/3/12
