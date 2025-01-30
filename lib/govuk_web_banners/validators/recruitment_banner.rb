@@ -14,6 +14,7 @@ module GovukWebBanners
           add_error(banner, "is missing a suggestion_link_text") unless banner.suggestion_link_text.present?
           add_error(banner, "is missing a survey_url") unless banner.survey_url.present?
           add_error(banner, "is missing any page_paths") unless banner.page_paths.present?
+          add_error(banner, "start_date is after end_date") unless banner.start_date < banner.end_date
 
           (banner.page_paths || []).each do |path|
             if path.start_with?("/")

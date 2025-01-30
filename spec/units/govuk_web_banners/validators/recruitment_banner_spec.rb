@@ -1,7 +1,7 @@
 require "govuk_web_banners/validators/recruitment_banner"
 
 RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
-  subject(:recruitment_banner) { described_class.new(GovukWebBanners::RecruitmentBanner.all_banners) }
+  subject(:validator) { described_class.new(GovukWebBanners::RecruitmentBanner.all_banners) }
 
   let(:fixtures_dir) { Rails.root.join(__dir__, "../../../../spec/fixtures/") }
 
@@ -19,13 +19,13 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
     describe ".valid?" do
       it "returns true" do
-        expect(recruitment_banner.valid?).to be true
+        expect(validator.valid?).to be true
       end
     end
 
     describe "errors attribute" do
       it "returns an empty array" do
-        expect(recruitment_banner.errors).to be_empty
+        expect(validator.errors).to be_empty
       end
     end
   end
@@ -37,17 +37,18 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
     describe ".valid?" do
       it "returns false" do
-        expect(recruitment_banner.valid?).to be false
+        expect(validator.valid?).to be false
       end
     end
 
     describe "errors attribute" do
       it "returns the relevant errors" do
-        expect(recruitment_banner.errors["Empty Survey URL"]).to eq(["is missing a survey_url"])
-        expect(recruitment_banner.errors["Suggestion Link Text Broken"]).to eq(["is missing a suggestion_link_text"])
-        expect(recruitment_banner.errors["Page Paths Empty"]).to eq(["is missing any page_paths"])
-        expect(recruitment_banner.errors["Suggestion Text Empty"]).to eq(["is missing a suggestion_text"])
-        expect(recruitment_banner.errors["Page Paths include invalid path"]).to eq(["page_path views/old should start with a /"])
+        expect(validator.errors["Empty Survey URL"]).to eq(["is missing a survey_url"])
+        expect(validator.errors["Suggestion Link Text Broken"]).to eq(["is missing a suggestion_link_text"])
+        expect(validator.errors["Page Paths Empty"]).to eq(["is missing any page_paths"])
+        expect(validator.errors["Suggestion Text Empty"]).to eq(["is missing a suggestion_text"])
+        expect(validator.errors["Page Paths include invalid path"]).to eq(["page_path views/old should start with a /"])
+        expect(validator.errors["Dates inverted"]).to eq(["start_date is after end_date"])
       end
     end
   end
@@ -62,19 +63,19 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
     describe ".valid?" do
       it "returns true" do
-        expect(recruitment_banner.valid?).to be true
+        expect(validator.valid?).to be true
       end
     end
 
     describe ".warnings?" do
       it "returns true" do
-        expect(recruitment_banner.warnings?).to be true
+        expect(validator.warnings?).to be true
       end
     end
 
     describe "warnings attribute" do
       it "returns the relevant warnings" do
-        expect(recruitment_banner.warnings).to eq({ "Banner 1" => ["is expired"] })
+        expect(validator.warnings).to eq({ "Banner 1" => ["is expired"] })
       end
     end
   end
@@ -87,13 +88,13 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
       describe ".valid?" do
         it "returns true" do
-          expect(recruitment_banner.valid?).to be true
+          expect(validator.valid?).to be true
         end
       end
 
       describe "errors attribute" do
         it "returns an empty array" do
-          expect(recruitment_banner.errors).to be_empty
+          expect(validator.errors).to be_empty
         end
       end
     end
@@ -105,14 +106,14 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
       describe ".valid?" do
         it "returns false" do
-          expect(recruitment_banner.valid?).to be false
+          expect(validator.valid?).to be false
         end
       end
 
       describe "errors attribute" do
         it "returns the relevant errors" do
-          expect(recruitment_banner.errors["Banner feb-apr"]).to eq(["is active at the same time as Banner jan-mar and points to the same paths"])
-          expect(recruitment_banner.errors["Banner jan-mar"]).to eq(["is active at the same time as Banner feb-apr and points to the same paths"])
+          expect(validator.errors["Banner feb-apr"]).to eq(["is active at the same time as Banner jan-mar and points to the same paths"])
+          expect(validator.errors["Banner jan-mar"]).to eq(["is active at the same time as Banner feb-apr and points to the same paths"])
         end
       end
     end
@@ -129,19 +130,19 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
 
     describe ".valid?" do
       it "returns true" do
-        expect(recruitment_banner.valid?).to be true
+        expect(validator.valid?).to be true
       end
     end
 
     describe ".warnings?" do
       it "returns true" do
-        expect(recruitment_banner.warnings?).to be true
+        expect(validator.warnings?).to be true
       end
     end
 
     describe "warnings attribute" do
       it "returns the relevant warnings" do
-        expect(recruitment_banner.warnings).to eq({ "Banner 2" => ["refers to a path /email-signup which is not currently live on gov.uk"] })
+        expect(validator.warnings).to eq({ "Banner 2" => ["refers to a path /email-signup which is not currently live on gov.uk"] })
       end
     end
   end
