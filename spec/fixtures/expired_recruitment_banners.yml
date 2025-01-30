@@ -1,4 +1,4 @@
-# Fixture - a banner that has already expired as of 01/01/2025
+# Fixture - a banner that has already expired as of 2025/01/01
 banners:
 - name: Banner 1
   suggestion_text: "Help improve GOV.UK"
@@ -7,4 +7,4 @@ banners:
   page_paths:
   - /
   - /foreign-travel-advice
-  end_date: 25/12/2023
+  end_date: 2023/12/25
