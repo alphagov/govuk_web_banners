@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 ## Unreleased
 
+* Remove configuration for "HMRC banner 03/01/2025" ([PR #53](https://github.com/alphagov/govuk_web_banners/pull/53))
 * Gem updates ([PR #50](https://github.com/alphagov/govuk_web_banners/pull/50))
 
 ## 0.4.0

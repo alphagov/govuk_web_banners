@@ -16,22 +16,6 @@
 # Note that this file must contain a valid banners array, so if there are no banners
 # currently included, the file should at least contain banners: []
 banners:
-- name: HMRC banner 03/01/2025
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CCG_Compliance
-  page_paths:
-    # government-frontend
-    - /government/collections/tax-compliance-detailed-information
-    - /government/collections/hm-revenue-and-customs-compliance-checks-factsheets
-    - /difficulties-paying-hmrc
-    - /tax-help
-    - /get-help-hmrc-extra-support
-    - /guidance/voluntary-and-community-sector-organisations-who-can-give-you-extra-support
-    - /tax-appeals
-    - /guidance/tax-disputes-alternative-dispute-resolution-adr
-  start_date: 03/01/2025
-  end_date: 31/01/2025
 - name: UKVI banner 30/12/2025
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Take part in user research (opens in a new tab)"
