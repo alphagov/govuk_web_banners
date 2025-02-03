@@ -12,3 +12,35 @@ banners:
     - /government/organisations/uk-visas-and-immigration
   start_date: 2024/12/30
   end_date: 2025/02/24
+- name: HMRC banner 2025/02/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Maternity_Pay_TAD
+  page_paths:
+    # government-frontend
+    - /shared-parental-leave-and-pay
+    - /maternity-pay-leave
+    - /paternity-pay-leave
+    - /working-when-pregnant-your-rights
+    - /employee-rights-when-on-leave
+    # smart-answers
+    - /maternity-paternity-pay-leave
+    # frontend
+    - /plan-shared-parental-leave-pay
+  start_date: 2025/02/13
+  end_date: 2025/03/13
+- name: HMRC banner (employers) 2025/02/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Maternity_Pay_Employers_TAD
+  page_paths:
+    # government-frontend
+    - /shared-parental-leave-and-pay-employer-guide
+    - /employers-maternity-pay-leave
+    - /employers-paternity-pay-leave
+    - /employers-parental-bereavement-pay-leave
+    - /employers-adoption-pay-leave
+    # smart-answers
+    - /maternity-paternity-calculator
+  start_date: 2025/02/13
+  end_date: 2025/03/13
