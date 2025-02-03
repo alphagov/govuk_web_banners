@@ -11,6 +11,7 @@ For typos, release a patch version.
 * Add global banner support ([PR #34](https://github.com/alphagov/govuk_web_banners/pull/34))
 * Remove configuration for "HMRC banner 03/01/2025" ([PR #53](https://github.com/alphagov/govuk_web_banners/pull/53))
 * Gem updates ([PR #50](https://github.com/alphagov/govuk_web_banners/pull/50))
+* Add two HMRC banners 13/02/2025 ([PR #54](https://github.com/alphagov/govuk_web_banners/pull/54))
 
 ## 0.4.0
 
