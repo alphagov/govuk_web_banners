@@ -1,2 +1,9 @@
 # Check README.md for how to format this file
-global_banners: []
+global_banners:
+- name: Email Alert Frontend Banner
+  title: "Email Alert Frontend""
+  title_href: /help/cookies
+  text: "This banner should only appear on Email Alert Frontend pages for now"
+  permanent: false
+  start_date: 2025/02/04
+
