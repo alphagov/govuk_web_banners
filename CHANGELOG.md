@@ -6,7 +6,7 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-## UNRELEASED
+## 1.0.0
 
 * Add global banner JS to js dependencies file ([PR #55](https://github.com/alphagov/govuk_web_banners/pull/55))
 * Add global banner support ([PR #34](https://github.com/alphagov/govuk_web_banners/pull/34))
