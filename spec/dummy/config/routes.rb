@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   get "/emergency", to: "banner_pages#emergency"
   get "/", to: "banner_pages#emergency_on_homepage"
+
+  get "/global", to: "banner_pages#global"
+  get "/global-linked-to", to: "banner_pages#global"
+  get "/global-related-to", to: "banner_pages#global"
 end

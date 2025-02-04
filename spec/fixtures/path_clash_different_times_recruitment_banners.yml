@@ -6,13 +6,13 @@ banners:
   survey_url: https://google.com
   page_paths:
   - /page-1
-  start_date: 12/02/2025
-  end_date: 12/04/2025
+  start_date: 2025/02/12
+  end_date: 2025/04/12
 - name: Banner may-aug
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
   survey_url: https://google.com
   page_paths:
   - /page-1
-  start_date: 12/04/2025
-  end_date: 12/08/2025
+  start_date: 2025/04/12
+  end_date: 2025/08/12

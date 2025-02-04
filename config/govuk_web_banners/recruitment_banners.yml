@@ -1,22 +1,6 @@
-# Example usage of adding a banner to the banners list
-
-  # banners:
-  # - name: Banner 1
-  #   suggestion_text: "Help improve GOV.UK"
-  #   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  #   survey_url: https://google.com
-  #   page_paths:
-  #   - /
-  #   - /foreign-travel-advice
-  #   start_date: 21/10/2024
-  #   end_date: 18/11/2024
-
-# start_date and end_date are optional, everything else is mandatory.
-#
-# Note that this file must contain a valid banners array, so if there are no banners
-# currently included, the file should at least contain banners: []
+# Check README.md for how to format this file
 banners:
-- name: UKVI banner 30/12/2025
+- name: UKVI banner 2025/12/30
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Take part in user research (opens in a new tab)"
   survey_url: https://surveys.publishing.service.gov.uk/s/XYVRGN/
@@ -26,5 +10,5 @@ banners:
     # collections
     - /browse/visas-immigration
     - /government/organisations/uk-visas-and-immigration
-  start_date: 30/12/2024
-  end_date: 24/02/2025
+  start_date: 2024/12/30
+  end_date: 2025/02/24

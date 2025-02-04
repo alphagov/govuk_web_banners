@@ -32,3 +32,11 @@ banners:
   - /views
   - views/old
   - /views/new
+- name: Dates inverted
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://google.com
+  page_paths:
+  - /news
+  end_date: 2025/01/06
+  start_date: 2025/01/07

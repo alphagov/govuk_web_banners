@@ -26,8 +26,8 @@ module GovukWebBanners
       @suggestion_link_text = attributes["suggestion_link_text"]
       @survey_url = attributes["survey_url"]
       @page_paths = attributes["page_paths"]
-      @start_date = attributes["start_date"] ? Time.parse(attributes["start_date"]) : Time.at(0)
-      @end_date = attributes["end_date"] ? Time.parse(attributes["end_date"]) : Time.now + 10.years
+      @start_date = attributes["start_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["start_date"]) : Time.at(0)
+      @end_date = attributes["end_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["end_date"]) : Time.now + 10.years
     end
 
     # NB: .between? is inclusive. To make it exclude the end date, we set the end range as

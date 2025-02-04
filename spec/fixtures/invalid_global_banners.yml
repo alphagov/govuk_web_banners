@@ -1,0 +1,36 @@
+global_banners:
+- name: Banner without title_href
+  title: Something
+  info_text: You should click this link
+  start_date: 2025/1/1
+  end_date: 2025/1/2
+- name: Banner without title
+  title_href: /hello
+  text: You should click this link
+  start_date: 2025/1/3
+  end_date: 2025/1/4
+- name: Banner without text
+  title: Something
+  title_href: /hello
+  start_date: 2025/1/4
+  end_date: 2025/1/5
+- name: Invalid exclude_path
+  title: Something
+  title_href: https://www.google.com
+  text: You should click this link
+  start_date: 2025/1/5
+  end_date: 2025/1/6
+  exclude_paths:
+  - hello
+- name: Dates inverted
+  title: Something
+  title_href: /hello
+  text: You should click this link
+  end_date: 2025/1/6
+  start_date: 2025/1/7
+- name: Missing start_date
+  title: Something
+  title_href: /hello
+  text: You should click this link
+  end_date: 2025/1/8
+
