@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 ## UNRELEASED
 
+* Add global banner JS to js dependencies file ([PR #55](https://github.com/alphagov/govuk_web_banners/pull/55))
 * Add global banner support ([PR #34](https://github.com/alphagov/govuk_web_banners/pull/34))
 * Remove configuration for "HMRC banner 03/01/2025" ([PR #53](https://github.com/alphagov/govuk_web_banners/pull/53))
 * Gem updates ([PR #50](https://github.com/alphagov/govuk_web_banners/pull/50))
