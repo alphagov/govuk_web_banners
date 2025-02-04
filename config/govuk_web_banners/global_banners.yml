@@ -1,2 +1,9 @@
 # Check README.md for how to format this file
-global_banners: []
+global_banners:
+- name: Static Banner gem test
+  title: "Static Global Banner Test"
+  title_href: /help/cookies
+  text: "This banner should appear everywhere on integration except account"
+  permanent: false
+  start_date: 2025/02/04
+
