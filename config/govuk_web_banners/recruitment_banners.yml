@@ -3,7 +3,7 @@ banners:
 - name: UKVI banner 2025/12/30
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Take part in user research (opens in a new tab)"
-  survey_url: https://surveys.publishing.service.gov.uk/s/XYVRGN/
+  survey_url: https://GDSUserResearch.optimalworkshop.com/treejack/335bbf3aad15329e77a9dc9ce8a79ee1
   page_paths:
     # frontend
     - /contact-ukvi-inside-outside-uk
@@ -11,7 +11,7 @@ banners:
     - /browse/visas-immigration
     - /government/organisations/uk-visas-and-immigration
   start_date: 2024/12/30
-  end_date: 2025/02/24
+  end_date: 2025/02/18
 - name: HMRC banner 2025/02/13
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
