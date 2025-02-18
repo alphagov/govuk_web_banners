@@ -6,7 +6,7 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-## UNRELEASED
+## 1.1.1
 
 * Update link and dates in UKVI banner 2025/12/30 ([PR #63](https://github.com/alphagov/govuk_web_banners/pull/63))
 
