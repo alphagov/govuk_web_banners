@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+## Unreleased
+
+* Remove expired config for UKVI banner 2025/12/30, HMRC banner 2025/02/13 and HMRC banner (employers) 2025/02/13
+
 ## 1.1.2
 
 * Update end date for "HMRC banner - Debt Management 2025/02/18" ([PR #71](https://github.com/alphagov/govuk_web_banners/pull/71))
@@ -50,3 +54,8 @@ For typos, release a patch version.
 ## 0.1.0
 
 * Initial release
+
+<ruby>
+
+
+<ruby>
