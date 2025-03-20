@@ -86,6 +86,9 @@ RSpec.describe GovukWebBanners::Validators::GlobalBanner do
         YAML.load_file(Rails.root.join(fixtures_dir, "same_time_global_banners.yml"))
       end
 
+      before { travel_to Time.local(2025, 1, 10) }
+      after { travel_back }
+
       describe ".valid?" do
         it "returns true" do
           expect(validator.valid?).to be true
