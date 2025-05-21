@@ -87,7 +87,7 @@ GEM
     base64 (0.2.0)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
-    brakeman (7.0.0)
+    brakeman (7.0.2)
       racc
     builder (3.3.0)
     byebug (12.0.0)
@@ -170,7 +170,7 @@ GEM
       rouge
       sprockets (>= 3)
       sprockets-rails
-    govuk_test (4.1.1)
+    govuk_test (4.1.2)
       brakeman (>= 5.0.2)
       capybara (>= 3.36)
       puma
@@ -465,7 +465,7 @@ GEM
     psych (5.2.6)
       date
       stringio
-    public_suffix (6.0.1)
+    public_suffix (6.0.2)
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
@@ -580,7 +580,7 @@ GEM
     ruby-progressbar (1.13.0)
     rubyzip (2.4.1)
     securerandom (0.4.1)
-    selenium-webdriver (4.29.1)
+    selenium-webdriver (4.32.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
