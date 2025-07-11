@@ -1,17 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: HMRC Comms & Guidance banner - Manual 2025/02/18
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CT-Manual_TAD
-  page_paths:
-    # government-frontend
-    - /hmrc-internal-manuals/business-income-manual/bim30000
-    - /hmrc-internal-manuals/business-income-manual/bim37000
-    - /hmrc-internal-manuals/property-income-manual/pim1900
-    - /hmrc-internal-manuals/property-income-manual/pim2010
-  start_date: 2025/05/29
-  end_date: 2025/07/11
 - name: HMRC banner - Register VAT 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
