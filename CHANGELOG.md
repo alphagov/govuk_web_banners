@@ -8,7 +8,8 @@ For typos, release a patch version.
 
 ## Unreleased
 
-Remove configuration for HMRC banner 2025/05/29 ([PR #112](https://github.com/alphagov/govuk_web_banners/pull/112))
+* Allow recruitment banner images ([PR #122](https://github.com/alphagov/govuk_web_banners/pull/122))
+* Remove configuration for HMRC banner 2025/05/29 ([PR #112](https://github.com/alphagov/govuk_web_banners/pull/112))
 
 ## 1.3.0
 * Add configuration for "HMRC banner 2025/07/04"([PR #117](https://github.com/alphagov/govuk_web_banners/pull/117))
@@ -71,8 +72,3 @@ Remove configuration for HMRC banner 2025/05/29 ([PR #112](https://github.com/al
 ## 0.1.0
 
 * Initial release
-
-<ruby>
-
-
-<ruby>
