@@ -18,7 +18,7 @@ module GovukWebBanners
       recruitment_banners_data["banners"].map { |attributes| RecruitmentBanner.new(attributes:) }
     end
 
-    attr_reader :name, :suggestion_text, :suggestion_link_text, :survey_url, :page_paths, :start_date, :end_date
+    attr_reader :name, :suggestion_text, :suggestion_link_text, :survey_url, :page_paths, :start_date, :end_date, :image
 
     def initialize(attributes:)
       @name = attributes["name"]
@@ -28,6 +28,7 @@ module GovukWebBanners
       @page_paths = attributes["page_paths"]
       @start_date = attributes["start_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["start_date"]) : Time.at(0)
       @end_date = attributes["end_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["end_date"]) : Time.now + 10.years
+      @image = attributes["image"]
     end
 
     # NB: .between? is inclusive. To make it exclude the end date, we set the end range as
