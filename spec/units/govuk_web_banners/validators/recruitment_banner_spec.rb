@@ -146,4 +146,22 @@ RSpec.describe GovukWebBanners::Validators::RecruitmentBanner do
       end
     end
   end
+
+  context "with banners with invalid images" do
+    let(:replacement_file) do
+      YAML.load_file(Rails.root.join(fixtures_dir, "images_recruitment_banners.yml"))
+    end
+
+    describe ".valid?" do
+      it "returns false" do
+        expect(validator.valid?).to be false
+      end
+    end
+
+    describe "errors attribute" do
+      it "returns the relevant errors" do
+        expect(validator.errors["Banner 2"]).to eq(["includes an invalid image value (dwp)"])
+      end
+    end
+  end
 end
