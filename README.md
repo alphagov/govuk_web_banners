@@ -206,17 +206,22 @@ banners:
   - /foreign-travel-advice
   start_date: 2024/10/21
   end_date: 2024/11/18
+  image: hmrc
 ```
 
 The required keys are `suggestion_text`, `suggestion_link_text`, and
 `survey_url` (the values to appear in the banner), and `page_paths` (an array of
 paths on which the banner should be shown).
 
-Optional keys are `name` (an identifying name for this banner, not rendered
-anywhere), and `start_date` / `end_date` (the banner becomes active at the start
-of the day specified as `start_date`, and stops at the *start* of the day
-specified as `end_date`). Start and end dates must be in the YYYY/MM/DD format
-parsable as a YAML -> Date.
+Optional keys are:
+- `name` (an identifying name for this banner, not rendered
+  anywhere)
+- `start_date` the banner becomes active at the *start* of the day specified.
+  Must be in the YYYY/MM/DD format parsable as a YAML -> Date.
+- `end_date` (the banner stops being active at the *start* of the day
+  specified). Must be in the YYYY/MM/DD format parsable as a YAML -> Date.
+- `image` an image name supported by the [interaction banner image option](https://components.publishing.service.gov.uk/component-guide/intervention#with_image)
+  Currently the only allowable value is `hmrc`.
 
 ### Validations on the recruitment banners config file
 
