@@ -15,6 +15,7 @@ module GovukWebBanners
           add_error(banner, "is missing a survey_url") unless banner.survey_url.present?
           add_error(banner, "is missing any page_paths") unless banner.page_paths.present?
           add_error(banner, "start_date is after end_date") unless banner.start_date < banner.end_date
+          add_error(banner, "includes an invalid image value (#{banner.image})") unless banner.image == "hmrc" || banner.image.nil?
 
           (banner.page_paths || []).each do |path|
             if path.start_with?("/")
