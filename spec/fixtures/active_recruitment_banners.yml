@@ -13,3 +13,4 @@ banners:
   survey_url: https://google.com
   page_paths:
   - /email-signup
+  image: hmrc
