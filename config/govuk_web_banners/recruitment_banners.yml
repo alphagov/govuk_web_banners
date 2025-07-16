@@ -79,3 +79,66 @@ banners:
     - /government/collections/vat-forms
   start_date: 2025/07/04
   end_date: 2025/08/01
+- name: HMRC banner - Comms & Guidance Annual accounts 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Annual_accounts
+  page_paths:
+    # government-frontend
+    - /annual-accounts
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Small Dormant Companies 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Small_Dormant_Companies
+  page_paths:
+    # government-frontend
+    - /annual-accounts/microentities-small-and-dormant-companies
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Capital Allowances 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Capital_Allowances
+  page_paths:
+    # government-frontend
+    - /capital-allowances
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Accounts Limited Company 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Annual_Accounts_Limited_Company
+  page_paths:
+    # government-frontend
+    - /prepare-file-annual-accounts-for-limited-company
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Running Limited Company 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Running_A_Limited_Company
+  page_paths:
+    # government-frontend
+    - /running-a-limited-company
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Claiming Loss 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Calculating_and_Claiming_a_Loss
+  page_paths:
+    # government-frontend
+    - /guidance/corporation-tax-calculating-and-claiming-a-loss
+  start_date: 2025/07/21
+  end_date: 2025/08/18
+- name: HMRC banner - Comms & Guidance Compliance Handbook 2025/07/21
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Corporation_Tax_Internal_Compliance_Handbook
+  page_paths:
+    # government-frontend
+    - /hmrc-internal-manuals/compliance-handbook/ch11400
+  start_date: 2025/07/21
+  end_date: 2025/08/18
