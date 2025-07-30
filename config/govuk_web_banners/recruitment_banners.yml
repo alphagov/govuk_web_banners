@@ -12,7 +12,7 @@ banners:
     - /guidance/check-what-registering-for-vat-may-mean-for-your-business
     - /government/publications/vat-notice-7001-should-i-be-registered-for-vat/vat-notice-7001-should-i-be-registered-for-vat
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - De-register VAT 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -22,7 +22,7 @@ banners:
     - /register-for-vat/cancel-your-registration
     - /government/publications/vat-notice-70011-cancelling-your-registration/vat-notice-70011-cancelling-your-registration
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Payments 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -32,7 +32,7 @@ banners:
     - /pay-vat
     - /government/collections/paying-hmrc-detailed-information
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Repayments 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -41,7 +41,7 @@ banners:
     # frontend
     - /vat-repayments
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Reporting 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -53,7 +53,7 @@ banners:
     - /submit-vat-return
     - /guidance/how-to-fill-in-and-submit-your-vat-return-vat-notice-70012
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Flat Rate Scheme 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -64,7 +64,7 @@ banners:
     - /vat-flat-rate-scheme/how-much-you-pay
     - /guidance/flat-rate-scheme-for-small-businesses-vat-notice-733--2
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Misc 2025/07/04
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -78,7 +78,7 @@ banners:
     - /how-vat-works
     - /government/collections/vat-forms
   start_date: 2025/07/04
-  end_date: 2025/08/01
+  end_date: 2025/08/29
 - name: HMRC banner - Comms & Guidance Annual accounts 2025/07/21
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
