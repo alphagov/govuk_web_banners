@@ -142,3 +142,12 @@ banners:
     - /hmrc-internal-manuals/compliance-handbook/ch11400
   start_date: 2025/07/21
   end_date: 2025/08/18
+- name: HMRC banner - Unity Business Services 2025/08/08
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Applying_For_HMRC
+  page_paths:
+    # frontend
+    - /government/organisations/hm-revenue-customs/about/recruitment
+  start_date: 2025/08/08
+  end_date: 2025/09/05
