@@ -16,7 +16,7 @@ module GovukWebBanners
       global_banners_data["global_banners"].map { |attributes| GlobalBanner.new(attributes:) }
     end
 
-    attr_reader :name, :title, :title_href, :text, :start_date, :end_date, :show_arrows, :permanent, :exclude_paths
+    attr_reader :name, :title, :title_href, :text, :start_date, :end_date, :show_arrows, :always_visible, :exclude_paths
 
     def initialize(attributes:)
       @name = attributes["name"]
@@ -28,7 +28,7 @@ module GovukWebBanners
       @start_date = attributes["start_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["start_date"]) : nil
       @end_date = attributes["end_date"] ? ActiveSupport::TimeZone[GovukWebBanners::TIME_ZONE].parse(attributes["end_date"]) : Time.now + 10.years
       @show_arrows = attributes["show_arrows"] == "true"
-      @permanent = attributes["permanent"] == "true"
+      @always_visible = attributes["always_visible"] == "true"
       @exclude_paths = attributes["exclude_paths"] || []
       @exclude_paths << title_href if title_href&.start_with?("/")
     end

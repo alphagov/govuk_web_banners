@@ -108,7 +108,7 @@ global_banners:
   title: "Register to Vote"
   title_href: /register-to-vote
   text: "You must register to vote before the election"
-  permanent: false
+  always_visible: false
   exclude_paths:
   - /find-your-local-electoral-office
   start_date: 2024/10/21
@@ -122,12 +122,12 @@ Each banner must include a `title`, `title_href`, `text`, and a valid `start_dat
 > `start_date` is **mandatory** here (unlike in recruitment banners) because it's
 > needed to create a banner_version to pass to the underlying component. This lets
 > the component reset the cookie that records how many times a banner has been seen
-> (by default banners are shown only three times, see the `permanent` option below.)
+> (by default banners are shown only three times, see the `always_visible` option below.)
 
 Optional keys are:
 - `name` (an identifying name for this banner, not rendered
   anywhere)
-- `permanent` (defaults to false. If false, banner is hidden if the user
+- `always_visible` (defaults to false. If false, banner is hidden if the user
   has consented to cookies and has seen this banner more than 3 times)
 - `exclude_paths` an array of paths on which the banner should not be shown.
   Note that the banner is never shown on the path it points to, this
