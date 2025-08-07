@@ -2,7 +2,7 @@
 <% if global_banners.any? %>
   <%= render "govuk_publishing_components/components/global_banner", {
       title: global_banners.first.title,
-      title_path: global_banners.first.title_href,
+      title_href: global_banners.first.title_href,
       text: global_banners.first.text,
       permanent: global_banners.first.permanent,
       banner_version: global_banners.first.version,
