@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+## Unreleased
+
+* Change title_path in global banner ([PR #136](https://github.com/alphagov/govuk_web_banners/pull/136))
+
 ## 1.6.0
 
 * Add configuration for "HMRC banner 2025/08/08" ([PR #134](https://github.com/alphagov/govuk_web_banners/pull/134))
