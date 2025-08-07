@@ -1,2 +1,9 @@
 # Check README.md for how to format this file
-global_banners: []
+global_banners:
+- name: Emergency Alerts
+  title: "Emergency Alerts"
+  title_href: /alerts
+  text: "Test on Sunday 7 September, 3pm"
+  always_visible: true
+  start_date: 2025/08/31
+  end_date: 2025/09/08
