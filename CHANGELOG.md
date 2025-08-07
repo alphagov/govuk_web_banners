@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 ## Unreleased
 
+* Add global banner for emergency alerts test ([PR #135](https://github.com/alphagov/govuk_web_banners/pull/135))
 * Rename permanent to always_visible ([PR #137](https://github.com/alphagov/govuk_web_banners/pull/137))
 * Change title_path in global banner ([PR #136](https://github.com/alphagov/govuk_web_banners/pull/136))
 
