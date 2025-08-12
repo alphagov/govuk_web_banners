@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.8.0
+
+* Add configuration for "HMRC banner 2025/08/13" ([PR #140](https://github.com/alphagov/govuk_web_banners/pull/140))
+
 ## 1.7.0
 
 * Add global banner for emergency alerts test ([PR #135](https://github.com/alphagov/govuk_web_banners/pull/135))
