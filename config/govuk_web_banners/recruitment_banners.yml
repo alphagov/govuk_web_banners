@@ -133,3 +133,18 @@ banners:
     - /guidance/tell-hmrc-if-you-have-a-new-job-or-more-than-one-job
   start_date: 2025/08/13
   end_date: 2025/10/08
+- name: HMRC banner - Guidance 2025/08/26
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Agent_Services_Guidance
+  page_paths:
+    # frontend
+    - /guidance/dedicated-helplines-and-contacts-for-authorised-agents
+    - /guidance/sign-in-to-your-agent-services-account
+    - /government/collections/tax-agents-toolkits
+    - /government/collections/tax-agents-and-advisers-detailed-information
+    # government-frontend
+    - /hmrc-internal-manuals/business-income-manual/bim40000
+    - /guidance/tax-agents-handbook
+  start_date: 2025/08/26
+  end_date: 2025/09/23
