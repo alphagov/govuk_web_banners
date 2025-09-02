@@ -6,9 +6,9 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# 1.9.0
+# 1.10.0
 
-* Add configuration for "AI Team banner 2025/09/05"
+* Add configuration for "AI Team banner 2025/09/05" ([PR #152](https://github.com/alphagov/govuk_web_banners/pull/152))
 
 # 1.9.0
 
