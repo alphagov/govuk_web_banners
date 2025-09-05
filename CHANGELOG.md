@@ -6,11 +6,11 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unrealeased
+# 1.11.0
 
-* Add configuration for "HMRC banner 2025/09/23"
-* Remove configuration for "HMRC banner 2025/08/08"
-* Remove configuration for "HMRC banner 2025/07/04"
+* Add configuration for "HMRC banner 2025/09/23" ([PR #156](https://github.com/alphagov/govuk_web_banners/pull/156))
+* Remove configuration for "HMRC banner 2025/08/08" ([PR #156](https://github.com/alphagov/govuk_web_banners/pull/156))
+* Remove configuration for "HMRC banner 2025/07/04" ([PR #153](https://github.com/alphagov/govuk_web_banners/pull/153))
 
 # 1.10.0
 
