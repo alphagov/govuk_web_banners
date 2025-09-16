@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"].reject { |f| f.match(/validators/) }
 
-  spec.add_dependency "govuk_app_config"
+  spec.add_dependency "govuk_app_config", ">= 9"
   spec.add_dependency "govuk_publishing_components"
   spec.add_dependency "rails", ">= 7"
   spec.add_dependency "redis"
