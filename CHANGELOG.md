@@ -6,9 +6,9 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unreleased
+# 1.13.0
 
-* Add configuration for "Open Banking banner 2025/09/17" 
+* Add configuration for "Open Banking banner 2025/09/17" ([PR #163](https://github.com/alphagov/govuk_web_banners/pull/163))
 
 # 1.12.1
 
