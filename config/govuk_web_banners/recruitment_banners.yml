@@ -59,7 +59,7 @@ banners:
     - /hmrc-internal-manuals/business-income-manual/bim40000
     - /guidance/tax-agents-handbook
   start_date: 2025/08/26
-  end_date: 2025/09/23
+  end_date: 2025/09/17
 - name: AI Team banner 2025/09/05
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
