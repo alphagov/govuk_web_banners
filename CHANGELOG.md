@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.12.1
+
+* Fix end date for "AI Team banner 2025/09/05"
+
 # 1.12.0
 
 * Take down "AI Team banner 2025/09/05" ([PR #162](https://github.com/alphagov/govuk_web_banners/pull/162))
