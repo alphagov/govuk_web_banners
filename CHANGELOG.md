@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
+* Add configuration for "Open Banking banner 2025/09/17" 
+
 # 1.12.1
 
 * Fix end date for "AI Team banner 2025/09/05"
