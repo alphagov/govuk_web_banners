@@ -113,15 +113,3 @@ banners:
     - /government/publications/hmrc-property-rental-toolkit
   start_date: 2025/09/23
   end_date: 2025/10/21
-- name: Open Banking banner 2025/09/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/preview/previewId/dccbddae-7aaa-47c6-8d4c-b00748b2266f/SV_dijUd7mucpoj370?Q_CHL=preview&Q_SurveyVersionID=current
-  page_paths:
-    # government-frontend
-    - /government/publications/trade-mark-forms-and-fees/trade-mark-forms-and-fees
-    - /how-to-register-a-trade-mark
-    # frontend
-    - /file-documents-pending-patent
-  start_date: 2025/09/17
-  end_date: 2025/10/15
