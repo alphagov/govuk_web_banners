@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Remove configuration for "AI Team banner 2025/09/05"
 * Remove configuration for "HMRC banner 2025/08/26"
 
 # 1.13.1
