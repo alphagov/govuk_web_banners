@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Add configuration for "HMRC banner 2025/10/06"
 * Remove configuration for "AI Team banner 2025/09/05"
 * Remove configuration for "HMRC banner 2025/08/26"
 
