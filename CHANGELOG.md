@@ -6,10 +6,12 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unreleased
+# 1.14.0
 
-* Remove configuration for "AI Team banner 2025/09/05"
-* Remove configuration for "HMRC banner 2025/08/26"
+* Add configuration for "HMRC banner 2025/10/10" ([PR #169](https://github.com/alphagov/govuk_web_banners/pull/169))
+* Add configuration for "HMRC banner 2025/10/06" ([PR #169](https://github.com/alphagov/govuk_web_banners/pull/169))
+* Remove configuration for "AI Team banner 2025/09/05" ([PR #168](https://github.com/alphagov/govuk_web_banners/pull/168))
+* Remove configuration for "HMRC banner 2025/08/26" ([PR #168](https://github.com/alphagov/govuk_web_banners/pull/168))
 
 # 1.13.1
 
@@ -21,7 +23,7 @@ For typos, release a patch version.
 
 # 1.12.1
 
-* Fix end date for "AI Team banner 2025/09/05"
+* Fix end date for "AI Team banner 2025/09/05" ([PR #164](https://github.com/alphagov/govuk_web_banners/pull/164))
 
 # 1.12.0
 

@@ -68,3 +68,35 @@ banners:
     - /government/publications/hmrc-property-rental-toolkit
   start_date: 2025/09/23
   end_date: 2025/10/21
+- name: HMRC banner - CXD Guidance 2025/10/06
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url:  https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Corporation-T-Guidance_TAD
+  page_paths:
+    # government-frontend
+    - /corporation-tax-rates/allowances-and-reliefs
+    - /tax-when-your-company-sells-assets
+    - /running-a-limited-company
+    - /hmrc-internal-manuals/property-income-manual/pim2030
+    # frontend
+    - /government/collections/allowances-expenses-and-reliefs-when-you-run-a-business
+    - /government/collections/corporation-tax-detailed-information
+    - /government/publications/hmrc-capital-vs-revenue-expenditure-toolkit
+  start_date: 2025/10/06
+  end_date: 2025/11/03
+- name: HMRC banner - CXD Guidance 2025/10/10
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url:  https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnership_TAD
+  page_paths:
+    # government-frontend
+    - /set-up-business-partnership
+    - /set-up-business-partnership/register-partnership-with-hmrc
+    - /hmrc-internal-manuals/partnership-manual
+    - /hmrc-internal-manuals/partnership-manual/pm134200
+    # frontend
+    - /government/publications/self-assessment-partnership-tax-return-sa800
+    - /guidance/register-a-partnership-for-self-assessment
+    - /government/publications/self-assessment-partnership-short-sa104s
+  start_date: 2025/10/10
+  end_date: 2025/11/07
