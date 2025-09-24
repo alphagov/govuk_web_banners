@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Add configuration for "HMRC banner 2025/10/10" ([PR #169](https://github.com/alphagov/govuk_web_banners/pull/169))
 * Add configuration for "HMRC banner 2025/10/06"
 * Remove configuration for "AI Team banner 2025/09/05"
 * Remove configuration for "HMRC banner 2025/08/26"
