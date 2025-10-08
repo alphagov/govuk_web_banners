@@ -136,3 +136,30 @@ banners:
     - /apply-tax-free-interest-on-savings
   start_date: 2025/10/17
   end_date: 2025/12/12
+- name: eVisa - research on UK visa guidance 2025/10/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/XBF5ZX/
+  page_paths:
+    # frontend 
+    - /evisa
+    - /uk-family-visa
+    - /uk-family-visa/partner-spouse
+    - /student-visa
+    - /student-visa/apply-online
+    - /skilled-worker-visa
+    - /skilled-worker-visa/apply-from-outside-the-uk
+    - /health-care-worker-visa
+    - /health-care-worker-visa/apply-from-outside-the-uk
+    - /standard-visitor
+    - /standard-visitor/apply-standard-visitor-visa
+    - /apply-to-come-to-the-uk
+    - /visa-fees
+    - /find-a-visa-application-centre
+    # collections
+    - /browse/visas-immigration
+    - /study-uk-student-visa
+    # smart answers
+    - /check-uk-visa
+  start_date: 2025/10/13
+  end_date: 2025/11/25
