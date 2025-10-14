@@ -9,6 +9,7 @@ For typos, release a patch version.
 # Unreleased
 
 * Add configuration for HMRC banner 2025/10/20
+* Remove configuration for "HMRC banner 2025/08/13"
 
 # 1.16.0
 * Add configuration for eVisa banner 2025/10/13 ([PR #174](https://github.com/alphagov/govuk_web_banners/pull/174))
