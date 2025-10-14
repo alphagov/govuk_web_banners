@@ -1,50 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: HMRC banner - CXD New Employee 2025/08/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_new_employee
-  page_paths:
-    # government-frontend
-    - /new-employee/employee-information
-  start_date: 2025/08/13
-  end_date: 2025/10/08
-- name: HMRC banner - CXD Get PAYE 2025/08/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_PAYE_forms_p45_p60
-  page_paths:
-    # government-frontend
-    - /get-paye-forms-p45-p60
-  start_date: 2025/08/13
-  end_date: 2025/10/08
-- name: HMRC banner - CXD Payroll 2025/08/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_running_payroll
-  page_paths:
-    # government-frontend
-    - /running-payroll
-  start_date: 2025/08/13
-  end_date: 2025/10/08
-- name: HMRC banner - CXD PAYE Checklist 2025/08/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_starter_checklist_for_PAYE
-  page_paths:
-    # frontend
-    - /guidance/starter-checklist-for-paye
-  start_date: 2025/08/13
-  end_date: 2025/10/08
-- name: HMRC banner - CXD New Job 2025/08/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tell_HMRC_new_job_or_more_than_one_job
-  page_paths:
-    # frontend
-    - /guidance/tell-hmrc-if-you-have-a-new-job-or-more-than-one-job
-  start_date: 2025/08/13
-  end_date: 2025/10/08
 - name: HMRC banner - CXD Guidance 2025/09/23
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -163,3 +118,48 @@ banners:
     - /check-uk-visa
   start_date: 2025/10/13
   end_date: 2025/11/25
+- name: HMRC banner - CXD Guidance 2025/10/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tax_Compliance_Checks
+  page_paths:
+    # frontend
+    - /tax-compliance-checks
+  start_date: 2025/10/20
+  end_date: 2025/12/08
+- name: HMRC banner - CXD Guidance 2025/10/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Get_Help_If_HMRC_Contacts_You_About_A_Compliance_Check
+  page_paths:
+    # frontend
+    - /guidance/get-help-if-hmrc-contacts-you-about-a-compliance-check
+  start_date: 2025/10/20
+  end_date: 2025/12/08
+- name: HMRC banner - CXD Guidance 2025/10/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_HMRC_Compliance_Checks_Help_And_Support
+  page_paths:
+    # frontend
+    - /guidance/hmrc-compliance-checks-help-and-support
+  start_date: 2025/10/20
+  end_date: 2025/12/08
+- name: HMRC banner - CXD Guidance 2025/10/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Guidelines_For_Compliance
+  page_paths:
+    # frontend
+    - /government/collections/guidelines-for-compliance
+  start_date: 2025/10/20
+  end_date: 2025/12/08
+- name: HMRC banner - CXD Guidance 2025/10/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Paying_HMRC_Detailed_Information
+  page_paths:
+    # frontend
+    - /government/collections/paying-hmrc-detailed-information
+  start_date: 2025/10/20
+  end_date: 2025/12/08
