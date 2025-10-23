@@ -9,6 +9,7 @@ For typos, release a patch version.
 # Unreleased
 
 * Add configuration for Pay banner 2025/10/30
+* Remove configuration for "HMRC banner 2025/09/23"
 
 # 1.18.0
 
