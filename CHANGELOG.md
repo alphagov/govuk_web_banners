@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.20.0
+
+* Add configuration for DVLA banner 2025/11/03 ([PR #183](https://github.com/alphagov/govuk_web_banners/pull/183))
+
 # 1.19.0
 
 * Add configuration for Pay banner 2025/10/30 ([PR #179](https://github.com/alphagov/govuk_web_banners/pull/179))
