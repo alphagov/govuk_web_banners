@@ -181,3 +181,31 @@ banners:
     - /government/publications/trade-mark-forms-and-fees/trade-mark-forms-and-fees
   start_date: 2025/10/30
   end_date: 2025/11/21
+- name: DVLA - research 2025/11/03
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/4HMJQX/
+  page_paths:
+    # frontend
+    - /contact-the-dvla
+    - /health-conditions-and-driving
+    - /health-conditions-and-driving/find-condition-online
+    - /reapply-driving-licence-medical-condition
+    - /renew-medical-driving-licence
+    - /driving-medical-conditions
+    - /driving-eyesight-rules
+    - /check-mot-history
+    - /check-vehicle-tax
+    - /check-mot-status
+    - /vehicle-tax
+    - /get-vehicle-information-from-dvla
+    - /view-driving-licence
+    - /sold-bought-vehicle
+    - /apply-first-provisional-driving-licence
+    - /change-address-driving-licence
+    - /renew-driving-licence
+    - /make-a-sorn
+    - /replace-a-driving-licence
+    - /apply-blue-badge
+  start_date: 2025/11/03
+  end_date: 2025/12/01
