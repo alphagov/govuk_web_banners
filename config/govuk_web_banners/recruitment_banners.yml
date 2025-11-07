@@ -209,3 +209,18 @@ banners:
     - /apply-blue-badge
   start_date: 2025/11/03
   end_date: 2025/12/01
+- name: HMRC banner - CXD Guidance 2025/11/20
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnerships2_TAD
+  page_paths:
+    # frontend
+    - /set-up-business-partnership
+    - /set-up-business-partnership/register-partnership-with-hmrc
+    - /guidance/register-a-partnership-for-self-assessment
+    - /guidance/register-a-partner-for-self-assessment-and-class-2-national-insurance
+    - /government/publications/self-assessment-partnership-full-sa104f
+    - /government/publications/self-assessment-partnership-uk-property-sa801
+    - /government/publications/self-assessment-partnership-tax-return-sa800
+  start_date: 2025/11/20
+  end_date: 2025/12/25
