@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.21.1
+
+* Remove DVLA banner from MOT history page ([PR #186](https://github.com/alphagov/govuk_web_banners/pull/186))
+
 # 1.21.0
 
 * Remove configuration for HMRC banner 2025/10/10 ([PR #185](https://github.com/alphagov/govuk_web_banners/pull/185))
