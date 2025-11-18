@@ -27,6 +27,23 @@ Add the JS dependencies to your existing asset dependencies file:
 //= require govuk_web_banners/dependencies
 ```
 
+Add the CSS dependencies to your application's CSS file - Note that this is not necessary
+if you have single-component support in your app and you're rendering the components early
+enough in your layout that their styles can be picked up automatically:
+
+```
+@import "govuk_web_banners/dependencies"
+```
+
+Note: this import relies on frontend and component support being available in your application's
+CSS file. If you do not already have the following lines at the top of the file you'll need to add
+them:
+
+```
+@import 'govuk_publishing_components/govuk_frontend_support';
+@import 'govuk_publishing_components/component_support';
+```
+
 ## Adding emergency banners
 
 Emergency banners are passed to the [Layout for
@@ -73,6 +90,13 @@ Rails.application.config.emergency_banner_redis_client = Redis.new(
   reconnect_attempts: [15, 30, 45, 60],
 )
 ```
+
+### Required stylesheets
+
+If you're not including the style dependencies as above, and not using
+single-component autoloading of styles, you'll need to import:
+
+`@import "govuk_web_banners/components/emergency-banner"`
 
 ## Adding global banners
 
@@ -163,6 +187,13 @@ Note that some of this validation code is in the
 tested to ensure the checking is valid, but will not be bundled into the
 released gem.
 
+### Required stylesheets
+
+If you're not including the style dependencies as above, and not using
+single-component autoloading of styles, you'll need to import:
+
+`@import "govuk_web_banners/components/global-banner"`
+
 ## Adding recruitment banners
 
 Add a call to the partial in the layout or view that you want banners to appear
@@ -175,15 +206,10 @@ breadcrumbs and just above the `main` element):
 
 ### Required stylesheets
 
-If you are using individual component stylesheets in your app, you should make
-sure the call to the recruitment_banner partial is above the call to
-render_component_stylesheets in your layout.
+If you're not including the style dependencies as above, and not using
+single-component autoloading of styles, you'll need to import:
 
-If you are _not_ using individual component stylesheets in your app, you will
-have to make sure the intervention component's styles are included in your
-application stylesheet:
-
-`@import "govuk_publishing_components/components/intervention"`
+`@import "govuk_web_banners/components/intervention"`
 
 ## Updating banner information in the gem
 
