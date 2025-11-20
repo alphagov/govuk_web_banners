@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
+* Simplify adding style dependencies when not using single-components [PR #188](https://github.com/alphagov/govuk_web_banners/pull/188)
+
 # 1.21.1
 
 * Remove DVLA banner from MOT history page ([PR #186](https://github.com/alphagov/govuk_web_banners/pull/186))
