@@ -6,7 +6,7 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unreleased
+# 1.22.0
 
 * Simplify adding style dependencies when not using single-components [PR #188](https://github.com/alphagov/govuk_web_banners/pull/188)
 
