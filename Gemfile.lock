@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    govuk_web_banners (1.21.1)
+    govuk_web_banners (1.22.0)
       govuk_app_config (>= 9)
       govuk_publishing_components
       rails (>= 7)
