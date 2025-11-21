@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.22.2
+
+* Remove config for AI banner 2025/10/24
+
 # 1.22.1
 
 * Remove config for DVLA banner 2025/11/03 [PR #190](https://github.com/alphagov/govuk_web_banners/pull/190)

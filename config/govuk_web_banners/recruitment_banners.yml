@@ -108,35 +108,6 @@ banners:
     - /government/collections/paying-hmrc-detailed-information
   start_date: 2025/10/20
   end_date: 2025/12/08
-- name: AI Team - research 2025/10/24
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://surveys.publishing.service.gov.uk/s/OTK7TW/
-  page_paths:
-    # frontend
-    - /vehicle-tax-rate-tables
-    - /child-benefit-16-19
-    - /income-tax-rates
-    - /tax-free-childcare
-    - /stamp-duty-land-tax/residential-property-rates
-    - /guidance/download-the-hmrc-app
-    - /child-benefit
-    - /winter-fuel-payment
-    - /child-maintenance-service
-    - /take-practice-theory-test
-    - /photos-for-passports
-    - /fishing-licences
-    - /penalty-points-endorsements/how-to-check-your-endorsement-details
-    - /winter-fuel-payment/eligibility
-    - /winter-fuel-payment/how-to-claim
-    - /inheritance-tax
-    - /self-assessment-tax-returns
-    - /carers-allowance
-    # collections
-    - /government/organisations/land-registry
-    - /government/organisations/department-for-work-pensions
-  start_date: 2025/10/24
-  end_date: 2025/12/12
 - name: Pay Team - research 2025/10/30
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
