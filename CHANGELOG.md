@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
+• Add configuration for HMRC banner 2025/12/01
+
 # 1.22.2
 
 * Remove config for AI banner 2025/10/24
