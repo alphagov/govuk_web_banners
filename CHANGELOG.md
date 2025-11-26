@@ -8,7 +8,8 @@ For typos, release a patch version.
 
 # Unreleased
 
-• Add configuration for HMRC banner 2025/12/01
+* Add configuration for HMRC banner 2025/12/01
+* Add configuration for HMRC Guidance banner 2025/12/01
 
 # 1.22.2
 
