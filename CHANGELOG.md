@@ -6,6 +6,14 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.23.0
+
+* Remove configuration for Pay banner 2025/10/30 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
+* Remove configuration for eVisa banner 2025/10/13 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
+* Add configuration for HMRC banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
+* Add configuration for HMRC Income Tax Guidance banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
+* Add configuration for HMRC Guidance banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
+
 # 1.22.2
 
 * Remove config for AI banner 2025/10/24

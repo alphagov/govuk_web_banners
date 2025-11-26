@@ -36,33 +36,6 @@ banners:
     - /apply-tax-free-interest-on-savings
   start_date: 2025/10/17
   end_date: 2025/12/12
-- name: eVisa - research on UK visa guidance 2025/10/13
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://surveys.publishing.service.gov.uk/s/XBF5ZX/
-  page_paths:
-    # frontend 
-    - /evisa
-    - /uk-family-visa
-    - /uk-family-visa/partner-spouse
-    - /student-visa
-    - /student-visa/apply-online
-    - /skilled-worker-visa
-    - /skilled-worker-visa/apply-from-outside-the-uk
-    - /health-care-worker-visa
-    - /health-care-worker-visa/apply-from-outside-the-uk
-    - /standard-visitor
-    - /standard-visitor/apply-standard-visitor-visa
-    - /apply-to-come-to-the-uk
-    - /visa-fees
-    - /find-a-visa-application-centre
-    # collections
-    - /browse/visas-immigration
-    - /study-uk-student-visa
-    # smart answers
-    - /check-uk-visa
-  start_date: 2025/10/13
-  end_date: 2025/11/25
 - name: HMRC banner - CXD Guidance 2025/10/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -108,18 +81,6 @@ banners:
     - /government/collections/paying-hmrc-detailed-information
   start_date: 2025/10/20
   end_date: 2025/12/08
-- name: Pay Team - research 2025/10/30
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/preview/previewId/dccbddae-7aaa-47c6-8d4c-b00748b2266f/SV_dijUd7mucpoj370?Q_CHL=preview&Q_SurveyVersionID=current
-  page_paths:
-    # frontend
-    - /how-to-register-a-trade-mark
-    - /file-documents-pending-patent
-    # government-frontend
-    - /government/publications/trade-mark-forms-and-fees/trade-mark-forms-and-fees
-  start_date: 2025/10/30
-  end_date: 2025/11/21
 - name: HMRC banner - CXD Guidance 2025/11/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -135,3 +96,99 @@ banners:
     - /government/publications/self-assessment-partnership-tax-return-sa800
   start_date: 2025/11/20
   end_date: 2025/12/25
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-treth-personol&Q_Language=CY
+  page_paths:
+    # frontend
+    - /cyfrif-treth-personol
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_treth-incwm-hunanasesiad-a-mwy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /find-hmrc-contacts/treth-incwm-hunanasesiad-a-mwy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-gofal-plant&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-ir-cyfrif-gofal-plant
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_download-the-hmrc-app.cy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /guidance/download-the-hmrc-app.cy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-21) HMRC banner - Guidance CXD 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_for_income_tax
+  page_paths:
+    # frontend
+    - /guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax
+    - /guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax
+    - /guidance/work-out-your-qualifying-income-for-making-tax-digital-for-income-tax
+    - /guidance/find-software-that-works-with-making-tax-digital-for-income-tax
+    - /government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
+    # government-frontend
+    - /guidance/use-making-tax-digital-for-income-tax
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-24) HMRC banner - Guidance CXD 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Working_for_yourself
+  page_paths:
+    # frontend
+    - /working-for-yourself
+  start_date: 2025/12/01
+  end_date: 2026/01/19
+- name: (URB-24) HMRC banner - Guidance CXD 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Check_additional_income_tax
+  page_paths:
+    # frontend
+    - /check-additional-income-tax
+  start_date: 2025/12/01
+  end_date: 2026/01/19
+- name: (URB-24) HMRC banner - Guidance CXD 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tell_HMRC_about_income_from_online_platforms
+  page_paths:
+    # frontend
+    - /guidance/check-if-you-need-to-tell-hmrc-about-your-income-from-online-platforms
+  start_date: 2025/12/01
+  end_date: 2026/01/19
+- name: (URB-24) HMRC banner - Guidance CXD 2025/12/01
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tell_HMRC_new_job_or_more_than_one_job
+  page_paths:
+    # frontend
+    - /guidance/tell-hmrc-if-you-have-a-new-job-or-more-than-one-job
+  start_date: 2025/12/01
+  end_date: 2026/01/19
