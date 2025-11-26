@@ -81,18 +81,6 @@ banners:
     - /government/collections/paying-hmrc-detailed-information
   start_date: 2025/10/20
   end_date: 2025/12/08
-- name: Pay Team - research 2025/10/30
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/preview/previewId/dccbddae-7aaa-47c6-8d4c-b00748b2266f/SV_dijUd7mucpoj370?Q_CHL=preview&Q_SurveyVersionID=current
-  page_paths:
-    # frontend
-    - /how-to-register-a-trade-mark
-    - /file-documents-pending-patent
-    # government-frontend
-    - /government/publications/trade-mark-forms-and-fees/trade-mark-forms-and-fees
-  start_date: 2025/10/30
-  end_date: 2025/11/21
 - name: HMRC banner - CXD Guidance 2025/11/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
