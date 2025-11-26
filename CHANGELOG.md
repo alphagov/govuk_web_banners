@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # 1.23.0
 
+* Remove configuration for eVisa banner 2025/10/13 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
 * Add configuration for HMRC banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
 * Add configuration for HMRC Income Tax Guidance banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
 * Add configuration for HMRC Guidance banner 2025/12/01 [PR #193](https://github.com/alphagov/govuk_web_banners/pull/193)
