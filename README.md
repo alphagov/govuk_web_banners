@@ -21,25 +21,26 @@ Or install it yourself as:
 $ gem install govuk_web_banners
 ```
 
-Add the JS dependencies to your existing asset dependencies file:
+Add the dependencies for the banners used by the gem (emergency banner, global banner and intervention) as follows.
 
-```
+Add the JavaScript dependencies to your application's existing JavaScript dependencies file.
+
+```JavaScript
 //= require govuk_web_banners/dependencies
 ```
 
-Add the CSS dependencies to your application's CSS file - Note that this is not necessary
+Add the CSS dependencies to your application's main `.scss` file. Note that this is not necessary
 if you have single-component support in your app and you're rendering the components early
-enough in your layout that their styles can be picked up automatically:
+enough in your layout that their styles can be picked up automatically.
 
-```
-@import "govuk_web_banners/dependencies"
+```SCSS
+@import "govuk_web_banners/dependencies";
 ```
 
 Note: this import relies on frontend and component support being available in your application's
-CSS file. If you do not already have the following lines at the top of the file you'll need to add
-them:
+main `.scss` file. Make sure that the following lines are at the top of the file.
 
-```
+```SCSS
 @import 'govuk_publishing_components/govuk_frontend_support';
 @import 'govuk_publishing_components/component_support';
 ```
