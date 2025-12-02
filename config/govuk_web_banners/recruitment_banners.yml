@@ -220,3 +220,14 @@ banners:
     - /government/organisations/department-for-work-pensions
   start_date: 2025/12/05
   end_date: 2026/01/02
+- name: (URB-20) HMRC banner - Manuals 2025/12/09
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://forms.office.com/e/c4LPez4F25?origin=lprLink
+  page_paths:
+    # government-frontend
+    - /hmrc-internal-manuals/partnership-manual
+    - /hmrc-internal-manuals/partnership-manual/pm134200
+    - /hmrc-internal-manuals/partnership-manual/pm137000
+  start_date: 2025/12/09
+  end_date: 2026/01/06
