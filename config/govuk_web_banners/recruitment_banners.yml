@@ -103,10 +103,9 @@ banners:
   page_paths:
     # frontend
     - /guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax
-    - /guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax
-    - /guidance/work-out-your-qualifying-income-for-making-tax-digital-for-income-tax
-    - /guidance/find-software-that-works-with-making-tax-digital-for-income-tax
     - /government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
+    - /government/collections/making-tax-digital-for-income-tax
+    - /government/collections/making-tax-digital-for-income-tax-as-an-agent-step-by-step
     # government-frontend
     - /guidance/use-making-tax-digital-for-income-tax
   start_date: 2025/12/01
@@ -165,5 +164,5 @@ banners:
   page_paths:
     # frontend
     - /guidance/check-employment-status-for-tax
-  start_date: 2025/12/09
+  start_date: 2025/12/08
   end_date: 2026/02/02
