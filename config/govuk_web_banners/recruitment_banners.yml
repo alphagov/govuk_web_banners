@@ -36,51 +36,6 @@ banners:
     - /apply-tax-free-interest-on-savings
   start_date: 2025/10/17
   end_date: 2025/12/12
-- name: HMRC banner - CXD Guidance 2025/10/20
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tax_Compliance_Checks
-  page_paths:
-    # frontend
-    - /tax-compliance-checks
-  start_date: 2025/10/20
-  end_date: 2025/12/08
-- name: HMRC banner - CXD Guidance 2025/10/20
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Get_Help_If_HMRC_Contacts_You_About_A_Compliance_Check
-  page_paths:
-    # frontend
-    - /guidance/get-help-if-hmrc-contacts-you-about-a-compliance-check
-  start_date: 2025/10/20
-  end_date: 2025/12/08
-- name: HMRC banner - CXD Guidance 2025/10/20
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_HMRC_Compliance_Checks_Help_And_Support
-  page_paths:
-    # frontend
-    - /guidance/hmrc-compliance-checks-help-and-support
-  start_date: 2025/10/20
-  end_date: 2025/12/08
-- name: HMRC banner - CXD Guidance 2025/10/20
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Guidelines_For_Compliance
-  page_paths:
-    # frontend
-    - /government/collections/guidelines-for-compliance
-  start_date: 2025/10/20
-  end_date: 2025/12/08
-- name: HMRC banner - CXD Guidance 2025/10/20
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Paying_HMRC_Detailed_Information
-  page_paths:
-    # frontend
-    - /government/collections/paying-hmrc-detailed-information
-  start_date: 2025/10/20
-  end_date: 2025/12/08
 - name: HMRC banner - CXD Guidance 2025/11/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -166,3 +121,93 @@ banners:
     - /guidance/check-employment-status-for-tax
   start_date: 2025/12/08
   end_date: 2026/02/02
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-treth-personol&Q_Language=CY
+  page_paths:
+    # frontend
+    - /cyfrif-treth-personol
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_treth-incwm-hunanasesiad-a-mwy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /find-hmrc-contacts/treth-incwm-hunanasesiad-a-mwy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-gofal-plant&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-ir-cyfrif-gofal-plant
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_download-the-hmrc-app.cy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /guidance/download-the-hmrc-app.cy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_contracts_conditions
+  page_paths:
+    # frontend
+    - /employment-contracts-and-conditions
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_Construction
+  page_paths:
+    # frontend
+    - /what-is-the-construction-industry-scheme
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_limited_company_rules
+  page_paths:
+    # frontend
+    - /employment-agencies-and-businesses/limited-company-contractors-and-opting-out-of-the-rules
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_recruiting
+  page_paths:
+    # collections
+    - /browse/employing-people/recruiting-hiring
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_Employer_responsibilities
+  page_paths:
+    # frontend
+    - /contract-types-and-employer-responsibilities
+  start_date: 2025/12/11
+  end_date: 2026/02/05
