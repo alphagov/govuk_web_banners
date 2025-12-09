@@ -166,3 +166,48 @@ banners:
     - /guidance/check-employment-status-for-tax
   start_date: 2025/12/08
   end_date: 2026/02/02
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-treth-personol&Q_Language=CY
+  page_paths:
+    # frontend
+    - /cyfrif-treth-personol
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-cofrestru-gwasanaethau-ar-lein-cthef
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_treth-incwm-hunanasesiad-a-mwy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /find-hmrc-contacts/treth-incwm-hunanasesiad-a-mwy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_cyfrif-gofal-plant&Q_Language=CY
+  page_paths:
+    # frontend
+    - /mewngofnodi-ir-cyfrif-gofal-plant
+  start_date: 2025/12/01
+  end_date: 2025/12/29
+- name: (URB-22) HMRC banner - CXD CY 2025/12/01
+  suggestion_text: "Helpwch i wella GOV.UK"
+  suggestion_link_text: "Cofrestrwch i gymryd rhan mewn ymchwil defnyddwyr (yn agor tab newydd)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_download-the-hmrc-app.cy&Q_Language=CY
+  page_paths:
+    # frontend
+    - /guidance/download-the-hmrc-app.cy
+  start_date: 2025/12/01
+  end_date: 2025/12/29
