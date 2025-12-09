@@ -211,3 +211,48 @@ banners:
     - /guidance/download-the-hmrc-app.cy
   start_date: 2025/12/01
   end_date: 2025/12/29
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_contracts_conditions
+  page_paths:
+    # frontend
+    - /employment-contracts-and-conditions
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_Construction
+  page_paths:
+    # frontend
+    - /what-is-the-construction-industry-scheme
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_limited_company_rules
+  page_paths:
+    # frontend
+    - /employment-agencies-and-businesses/limited-company-contractors-and-opting-out-of-the-rules
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_recruiting
+  page_paths:
+    # collections
+    - /browse/employing-people/recruiting-hiring
+  start_date: 2025/12/11
+  end_date: 2026/02/05
+- name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CEST_Employer_responsibilities
+  page_paths:
+    # frontend
+    - /contract-types-and-employer-responsibilities
+  start_date: 2025/12/11
+  end_date: 2026/02/05
