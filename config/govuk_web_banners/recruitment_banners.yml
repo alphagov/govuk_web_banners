@@ -211,3 +211,141 @@ banners:
     - /contract-types-and-employer-responsibilities
   start_date: 2025/12/11
   end_date: 2026/02/05
+- name: (URB-27) HMRC banner - Flat Rate Scheme 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Flat_rate_scheme
+  page_paths:
+    # frontend
+    - /vat-flat-rate-scheme
+    - /vat-flat-rate-scheme/leaving-the-scheme
+    - /vat-flat-rate-scheme/if-your-circumstances-change
+    - /guidance/flat-rate-scheme-for-small-businesses-vat-notice-733--2
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-27) HMRC banner - Reporting 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Reporting
+  page_paths:
+    # frontend
+    - /charge-reclaim-record-vat
+    - /charge-reclaim-record-vat/when-not-to-charge-vat
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-27) HMRC banner - Misc Banner 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Misc
+  page_paths:
+    # frontend
+    - /guidance/vat-exemption-and-partial-exemption
+    - /guidance/partial-exemption-vat-notice-706
+    - /guidance/vat-how-to-work-out-your-place-of-supply-of-services
+    - /guidance/vat-place-of-supply-of-services-notice-741a
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-27) HMRC banner - Registration 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Registration
+  page_paths:
+    # frontend
+    - /government/publications/vat-notice-7001-should-i-be-registered-for-vat/vat-notice-7001-should-i-be-registered-for-vat
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-27) HMRC banner - Deregistration 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_De-registration
+  page_paths:
+    # frontend
+    - /register-for-vat/cancel-your-registration  
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-27) HMRC banner - Payments 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Payments
+  page_paths:
+    # frontend
+    - /pay-vat
+    - /pay-vat/direct-debit
+    - /pay-vat/pay-using-another-payment-method
+    - /guidance/vat-payments-on-account
+    - /guidance/vat-imports-acquisitions-and-purchases-from-abroad
+    - /guidance/how-late-payment-penalties-work-if-you-pay-vat-late
+  start_date: 2025/12/15
+  end_date: 2026/01/12
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Off_Payroll_Working_Agencies
+  page_paths:
+    # frontend
+    - /guidance/off-payroll-working-for-agencies
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Understanding_Off_Payroll_Working_In_IR35
+  page_paths:
+    # frontend
+    - /guidance/understanding-off-payroll-working-ir35
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Off_Payroll_Working_Rules
+  page_paths:
+    # frontend
+    - /guidance/fee-payer-responsibilities-under-the-off-payroll-working-rules
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Off_Payroll_Working_For_Intermediaries_And_Contractors
+  page_paths:
+    # frontend
+    - /guidance/off-payroll-working-for-intermediaries-and-contractors-providing-services-to-small-clients-in-the-private-sector
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Off_Payroll_Working_For_Intermediaries_And_Contractors_Private_Sector_Medium_Large_Clients
+  page_paths:
+    # frontend
+    - /guidance/off-payroll-working-for-intermediaries-and-contractors-providing-services-to-the-public-sector-or-medium-and-large-clients-in-the-private-sector
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Check_Employment_Status_Hair_and_Beauty
+  page_paths:
+    # frontend
+    - /guidance/check-employment-status-if-you-work-in-hair-and-beauty
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Off_Payroll_Working_IR35_Detailed_Information
+  page_paths:
+    # frontend
+    - /government/collections/off-payroll-working-ir35-detailed-information
+  start_date: 2025/12/18
+  end_date: 2026/01/15
+- name: (URB-26) HMRC banner - Policy 2025/12/15
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Employed_or_Self_Employed
+  page_paths:
+    # frontend
+    - /government/collections/employed-or-self-employed
+  start_date: 2025/12/18
+  end_date: 2026/01/15
