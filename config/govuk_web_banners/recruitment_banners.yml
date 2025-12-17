@@ -1,41 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tax_On_Pension
-  page_paths:
-    # frontend
-    - /tax-on-pension
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Check_Simple_Assessment
-  page_paths:
-    # frontend
-    - /check-simple-assessment
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Simple_Assessment
-  page_paths:
-    # frontend
-    - /simple-assessment
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Apply_Tax_Free_Interest_On_Savings
-  page_paths:
-    # frontend
-    - /apply-tax-free-interest-on-savings
-  start_date: 2025/10/17
-  end_date: 2025/12/12
 - name: HMRC banner - CXD Guidance 2025/11/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
