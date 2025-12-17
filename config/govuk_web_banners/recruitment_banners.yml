@@ -1,41 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Tax_On_Pension
-  page_paths:
-    # frontend
-    - /tax-on-pension
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Check_Simple_Assessment
-  page_paths:
-    # frontend
-    - /check-simple-assessment
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Simple_Assessment
-  page_paths:
-    # frontend
-    - /simple-assessment
-  start_date: 2025/10/17
-  end_date: 2025/12/12
-- name: HMRC banner - Simple Assessment PAYE CI Request 25/10/17
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Apply_Tax_Free_Interest_On_Savings
-  page_paths:
-    # frontend
-    - /apply-tax-free-interest-on-savings
-  start_date: 2025/10/17
-  end_date: 2025/12/12
 - name: HMRC banner - CXD Guidance 2025/11/20
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
@@ -349,3 +313,34 @@ banners:
     - /government/collections/employed-or-self-employed
   start_date: 2025/12/18
   end_date: 2026/01/15
+- name: (URB-28) HMRC banner 2026/01/05
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_CT_Guidance_TAD
+  page_paths:
+    # frontend
+    - /pay-corporation-tax
+    - /file-your-company-accounts-and-tax-return
+    - /running-a-limited-company
+    - /running-a-limited-company/taking-money-out-of-a-limited-company
+    - /corporation-tax-rates
+    - /guidance/company-expenses-you-can-deduct-before-paying-corporation-tax
+    # collections
+    - /set-up-limited-company
+    # smartanswers
+    - /next-steps-for-your-business
+  start_date: 2026/01/05
+  end_date: 2026/02/02
+- name: (URB-29) HMRC banner 2026/01/05
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnerships2_TAD
+  page_paths:
+    # frontend
+    - /guidance/register-a-partner-for-self-assessment-and-class-2-national-insurance
+    - /government/publications/self-assessment-partnership-tax-return-sa800
+    - /guidance/changes-to-reporting-income-from-self-employment-and-partnerships
+    - /government/publications/self-assessment-partnership-uk-property-sa801
+    - /guidance/register-a-partner-for-self-assessment-if-theyre-not-an-individual
+  start_date: 2026/01/05
+  end_date: 2026/02/02
