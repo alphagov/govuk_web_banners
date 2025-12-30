@@ -1,19 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: (URB-21) HMRC banner - Guidance CXD 2025/12/01
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_for_income_tax
-  page_paths:
-    # frontend
-    - /guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax
-    - /government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
-    - /government/collections/making-tax-digital-for-income-tax
-    - /government/collections/making-tax-digital-for-income-tax-as-an-agent-step-by-step
-    # government-frontend
-    - /guidance/use-making-tax-digital-for-income-tax
-  start_date: 2025/12/01
-  end_date: 2025/12/29
 - name: (URB-24) HMRC banner - Guidance CXD 2025/12/01
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
