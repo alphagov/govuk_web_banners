@@ -298,3 +298,30 @@ banners:
     - /browse/housing-local-services
   start_date: 2026/01/09
   end_date: 2026/01/30
+- name: (URB-30) AI banner 2026/01/09
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/LY0F8Y/
+  page_paths:
+    # frontend
+    - /pip
+    - /new-state-pension/what-youll-get
+    - /using-your-gov-uk-one-login/proving-your-identity
+    - /power-of-attorney
+    - /carers-allowance/eligibility
+    - /guidance/move-to-universal-credit-if-you-get-a-migration-notice-letter
+    - /government/organisations/disclosure-and-barring-service
+    - /contact-student-finance-england/y
+    - /contact-electoral-registration-office
+    - /guidance/track-a-dbs-application
+    - /electoral-register
+    - /pay-council-tax
+    - /search-for-trademark
+    - /life-in-the-uk-test
+    #collections
+    - /browse/abroad
+    - /browse/births-deaths-marriages
+    - /browse/working
+    - /government/organisations/student-loans-company
+  start_date: 2026/01/09
+  end_date: 2026/02/06

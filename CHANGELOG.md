@@ -9,6 +9,7 @@ For typos, release a patch version.
 # Unreleased
 
 * Add configuration for AI banner 2026/01/09 URB-25
+* Add configuration for AI banner 2026/01/09 URB-30
 
 # 1.28.1
 
