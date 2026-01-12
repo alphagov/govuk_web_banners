@@ -6,7 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
 * Remove configuration for HMRC banner 2025/12/15 URB-27
+* Remove configuration for HMRC banner 2025/12/09 URB-20
 
 # 1.29.0
 

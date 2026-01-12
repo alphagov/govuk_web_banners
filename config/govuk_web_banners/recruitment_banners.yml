@@ -36,17 +36,6 @@ banners:
     - /guidance/tell-hmrc-if-you-have-a-new-job-or-more-than-one-job
   start_date: 2025/12/01
   end_date: 2026/01/19
-- name: (URB-20) HMRC banner - Manuals 2025/12/09
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://forms.office.com/e/c4LPez4F25?origin=lprLink
-  page_paths:
-    # government-frontend
-    - /hmrc-internal-manuals/partnership-manual
-    - /hmrc-internal-manuals/partnership-manual/pm134200
-    - /hmrc-internal-manuals/partnership-manual/pm137000
-  start_date: 2025/12/09
-  end_date: 2026/01/06
 - name: (URB-19) HMRC banner - Guidance CXD 2025/12/08
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
