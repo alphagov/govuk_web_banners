@@ -248,3 +248,23 @@ banners:
     - /government/organisations/student-loans-company
   start_date: 2026/01/09
   end_date: 2026/02/06
+- name: (URB-31) eVisa banner 2026/01/14
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/WI1UXK/
+  page_paths:
+    # frontend
+    - /evisa
+    - /evisa/set-up-ukvi-account
+    - /evisa/view-evisa-get-share-code-prove-immigration-status
+    - /evisa/travel-with-evisa
+    - /evisa/report-error-evisa
+    #collections
+    - /browse/visas-immigration
+    - /browse/visas-immigration/work-visas
+    - /browse/visas-immigration/student-visas
+    - /browse/visas-immigration/family-visas
+    - /browse/visas-immigration/settle-in-the-uk
+    - /browse/visas-immigration/eu-eea-swiss
+  start_date: 2026/01/14
+  end_date: 2026/02/04

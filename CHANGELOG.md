@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Add configuration for eVisa banner 2026/01/14 URB-31
 * Remove configuration for HMRC banner 2025/12/15 URB-27
 * Remove configuration for HMRC banner 2025/12/09 URB-20
 
