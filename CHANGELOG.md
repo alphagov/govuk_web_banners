@@ -6,6 +6,8 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+* Remove configuration for HMRC banner 2025/12/15 URB-27
+
 # 1.29.0
 
 * Add configuration for AI banner 2026/01/09 URB-25 [PR #207](https://github.com/alphagov/govuk_web_banners/pull/207)
