@@ -49,11 +49,8 @@ main `.scss` file. Make sure that the following lines are at the top of the file
 
 Emergency banners are passed to the [Layout for
 Public](https://components.publishing.service.gov.uk/component-guide/layout_for_public)
-component, which is currently applied to each frontend app by the slimmer/static
-wrapping code - so you will only need to handle emergency banners in your app
-when Slimmer is removed from it. Once Slimmer is removed and you are calling the
-layout_for_public component directly in your app, add the emergency banner
-partial to the component's `emergency_banner:` key:
+component. In your app's layout file, where this component is used, add the emergency
+banner partial to the component's `emergency_banner:` key:
 
 ```
 <%= render "govuk_publishing_components/components/layout_for_public", {
@@ -103,11 +100,8 @@ single-component autoloading of styles, you'll need to import:
 
 Global banners are passed to the [Layout for
 Public](https://components.publishing.service.gov.uk/component-guide/layout_for_public)
-component, which is currently applied to each frontend app by the slimmer/static
-wrapping code - so you will only need to handle global banners in your app when
-Slimmer is removed from it. Once Slimmer is removed and you are calling the
-layout_for_public component directly in your app, add the global banner partial
-to the component's `global_banner:` key:
+component. In your app's layout file, where this component is used, add the global
+banner partial to the component's `global_banner:` key:
 
 ```
 <%= render "govuk_publishing_components/components/layout_for_public", {
