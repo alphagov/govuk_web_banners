@@ -11,6 +11,7 @@ For typos, release a patch version.
 * Remove configuration for AI banner 2026/01/09 URB-30
 * Remove configuration for AI banner 2026/01/09 URB-25
 * Remove configuration for HMRC banner 2025/12/01 URB-24
+* Remove configuration for HMRC banner 2025/12/18 URB-26
 
 # 1.30.1
 
