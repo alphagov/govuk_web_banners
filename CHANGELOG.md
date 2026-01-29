@@ -6,7 +6,7 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unreleased
+# 1.30.3
 
 * Remove configuration for eVisa banner 2026/01/14 URB-31
 
