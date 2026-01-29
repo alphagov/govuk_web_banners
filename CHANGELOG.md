@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.30.3
+
+* Remove configuration for eVisa banner 2026/01/14 URB-31
+
 # 1.30.2
 
 * Remove configuration for AI banner 2026/01/09 URB-30 [PR #213](https://github.com/alphagov/govuk_web_banners/pull/213)
