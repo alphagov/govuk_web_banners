@@ -1,14 +1,5 @@
 # Check README.md for how to format this file
 banners:
-- name: (URB-19) HMRC banner - Guidance CXD 2025/12/08
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Check_Employment_Status
-  page_paths:
-    # frontend
-    - /guidance/check-employment-status-for-tax
-  start_date: 2025/12/08
-  end_date: 2026/02/02
 - name: (URB-23) HMRC banner - Guidance CXD 2025/12/11
   suggestion_text: "Help improve GOV.UK"
   suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"

@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
+* Remove configuration for HMRC Guidance banner 2025/12/08 URB-19
+
 # 1.30.3
 
 * Remove configuration for eVisa banner 2026/01/14 URB-31
