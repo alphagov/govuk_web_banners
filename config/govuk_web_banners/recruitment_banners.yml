@@ -1,15 +1,2 @@
 # Check README.md for how to format this file
-banners:
-- name: (URB-29) HMRC banner 2026/01/05
-  suggestion_text: "Help improve GOV.UK"
-  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
-  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnerships2_TAD
-  page_paths:
-    # frontend
-    - /guidance/register-a-partner-for-self-assessment-and-class-2-national-insurance
-    - /government/publications/self-assessment-partnership-tax-return-sa800
-    - /guidance/changes-to-reporting-income-from-self-employment-and-partnerships
-    - /government/publications/self-assessment-partnership-uk-property-sa801
-    - /guidance/register-a-partner-for-self-assessment-if-theyre-not-an-individual
-  start_date: 2026/01/05
-  end_date: 2026/02/02
+banners: []
