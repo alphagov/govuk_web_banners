@@ -10,6 +10,7 @@ For typos, release a patch version.
 
 * Remove configuration for HMRC Guidance banner 2025/12/08 URB-19
 * Remove configuration for HMRC banner 2025/12/11 URB-23
+* Remove configuration for HMRC banner 2026/01/05 URB-28
 
 # 1.30.3
 
