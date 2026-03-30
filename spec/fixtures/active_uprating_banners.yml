@@ -1,0 +1,6 @@
+banners:
+  - name: uprating 2025
+    text: "Some calculator rates are temporarily out of date."
+    page_paths:
+      - /calculate-married-couples-allowance
+    start_date: 2026/01/01

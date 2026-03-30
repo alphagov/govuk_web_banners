@@ -1,0 +1,5 @@
+banners:
+- name: Banner 1
+  text: "This banner appears at /uprating-with-banners!"
+  page_paths:
+  - /uprating-with-banners
