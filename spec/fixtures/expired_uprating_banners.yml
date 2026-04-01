@@ -1,0 +1,7 @@
+banners:
+  - name: "Banner 1"
+    text: "Sick pay rates are due to be changed"
+    page_paths:
+      - /calculate-statutory-sick-pay
+    start_date: 2023/01/01
+    end_date: 2023/12/31

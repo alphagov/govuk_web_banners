@@ -1,0 +1,9 @@
+<% uprating_banner = GovukWebBanners::UpratingBanner.for_path(request.path) %>
+<% if uprating_banner.present? %>
+  <div class="govuk-!-margin-top-4">
+    <%= render "govuk_publishing_components/components/notice", {
+      title: uprating_banner.text,
+      show_banner_title: true
+    } %>
+  </div>
+<% end %>

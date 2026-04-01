@@ -14,6 +14,7 @@ RSpec::Core::RakeTask.new
 
 require "govuk_web_banners/validators/global_banner"
 require "govuk_web_banners/validators/recruitment_banner"
+require "govuk_web_banners/validators/uprating_banner"
 require "rainbow"
 
 def output_validator_info(validator, name)
@@ -57,4 +58,14 @@ rescue StandardError => e
   exit(1)
 end
 
-task default: %i[check_global_config check_recruitment_config rubocop spec]
+desc "show errors in the live uprating banner config"
+task :check_uprating_config do
+  validator = GovukWebBanners::Validators::UpratingBanner.new(GovukWebBanners::UpratingBanner.all_banners)
+  output_validator_info(validator, "uprating banner")
+rescue StandardError => e
+  puts(e)
+  puts Rainbow("Live uprating banner config could not be read (if there are no banners, check banner key is marked as an empty array - banners: [])").red
+  exit(1)
+end
+
+task default: %i[check_global_config check_recruitment_config check_uprating_config rubocop spec]

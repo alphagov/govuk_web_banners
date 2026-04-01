@@ -1,0 +1,21 @@
+banners:
+- name: Text Empty
+  text:
+  page_paths:
+    - /calculate-married-couples-allowance
+  start_date: 2025/01/01
+- name: Page Paths Empty
+  text: "Rates may be temporarily out of date"
+  page_paths:
+- name: Page Paths include invalid path
+  text: "Rates may be temporarily out of date"
+  page_paths:
+    - /views
+    - views/old
+    - /views/new
+- name: Dates inverted
+  text: "Marriage rates have changed"
+  page_paths:
+    - /calculate-married-couples-allowances
+  end_date: 2025/01/06
+  start_date: 2025/01/07
