@@ -1,8 +1,1 @@
-banners:
-- name: Temporary uprating banner for 6th April 2026
-  text: "This calculator is being updated. It will not currently give accurate results for the 2026 to 2027 tax year"
-  page_paths:
-    - /calculate-married-couples-allowance
-    - /child-benefit-tax-calculator
-  start_date: 2026/04/01
-  end_date: 2026/04/08
+banners: []
