@@ -1,3 +1,3 @@
 module GovukWebBanners
-  VERSION = "1.32.0".freeze
+  VERSION = "1.33.1".freeze
 end
