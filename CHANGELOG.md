@@ -6,6 +6,10 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.33.2
+
+* Drop support for Ruby 3.2 [PR #222](https://github.com/alphagov/govuk_web_banners/pull/222)
+
 # 1.33.1
 
 * Remove the configuration for smart answers banners [PR #221](https://github.com/alphagov/govuk_web_banners/pull/221)
