@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary     = "A gem to support banners on GOV.UK frontend applications"
   spec.description = "A gem to support banners on GOV.UK frontend applications"
   spec.license     = "MIT"
-  spec.required_ruby_version = ">= 3.1"
+  spec.required_ruby_version = ">= 3.3"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://www.github.com/alphagov/govuk_web_banners"
