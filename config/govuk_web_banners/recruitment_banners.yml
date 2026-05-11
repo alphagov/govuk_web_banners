@@ -1,2 +1,56 @@
 # Check README.md for how to format this file
-banners: []
+banners:
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
+  page_paths:
+    # frontend
+    - /government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
+  start_date: 2026/05/13
+  end_date: 2026/07/08
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/guidance/sign-up-for-making-tax-digital-for-income-tax
+  page_paths:
+    # frontend
+    - /guidance/sign-up-for-making-tax-digital-for-income-tax
+  start_date: 2026/05/13
+  end_date: 2026/07/08
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/government/collections/making-tax-digital-for-income-tax
+  page_paths:
+    # frontend
+    - /government/collections/making-tax-digital-for-income-tax
+  start_date: 2026/05/13
+  end_date: 2026/07/08
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax
+  page_paths:
+    # frontend
+    - /guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax
+  start_date: 2026/05/13
+  end_date: 2026/07/08
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax
+  page_paths:
+    # frontend
+    - /guidance/choose-the-right-software-for-making-tax-digital-for-income-tax
+  start_date: 2026/05/13
+  end_date: 2026/07/08
+- name: (URB-35) HMRC banner 2026/05/13
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/guidance/help-and-support-for-making-tax-digital
+  page_paths:
+    # frontend
+    - /guidance/help-and-support-for-making-tax-digital
+  start_date: 2026/05/13
+  end_date: 2026/07/08
