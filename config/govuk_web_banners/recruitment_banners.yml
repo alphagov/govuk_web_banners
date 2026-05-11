@@ -54,3 +54,26 @@ banners:
     - /guidance/help-and-support-for-making-tax-digital
   start_date: 2026/05/13
   end_date: 2026/07/08
+- name: (URB-36) HMRC banner 2026/05/29
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Employer1_TAD
+  page_paths:
+    # frontend
+    - /find-hmrc-contacts/employers-general-enquiries
+    - /basic-paye-tools
+    - /get-paye-forms-p45-p60
+    - /pay-class-1a-national-insurance
+    - /employee-tax-codes
+    - /guidance/paying-your-employees-expenses-and-benefits-through-your-payroll
+  start_date: 2026/05/29
+  end_date: 2026/07/24
+- name: (URB-36) HMRC banner 2026/05/29
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Calculate_Tax_On_Company_Cars
+  page_paths:
+    # frontend
+    - /calculate-tax-on-company-cars
+  start_date: 2026/05/29
+  end_date: 2026/07/24

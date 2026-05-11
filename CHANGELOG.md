@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Add configuration for HMRC banner 2026/05/29 URB-36
 * Add configuration for HMRC banner 2026/05/13 URB-35
 * Remove configuration for HMRC banners URB-33 and URB-34
 
