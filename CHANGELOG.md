@@ -6,8 +6,9 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
-# Unrelease
-* Add configuration for Web Search banner 2026/07/01 URB-40
+# 1.36.0
+
+* Add configuration for Web Search banner 2026/07/01 URB-40 [PR #274](https://github.com/alphagov/govuk_web_banners/pull/274)
 
 # 1.35.0
 
