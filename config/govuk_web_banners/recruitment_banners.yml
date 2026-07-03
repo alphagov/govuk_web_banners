@@ -112,7 +112,28 @@ banners:
   page_paths:
     # frontend
     - /prepare-charitys-annual-accounts
-    - /guidance/prepare-a-charity-annual-return
     - /government/collections/charity-accounts-financial-reporting-and-tax
+    - /guidance/prepare-a-charity-annual-return
+    - /prepare-charitys-annual-accounts/y
+    - /prepare-charitys-annual-accounts/y/yes
+    - /prepare-charitys-annual-accounts/y/yes/up-to-25-000
+    - /prepare-charitys-annual-accounts/y/yes/over-25-000-to-250-000
+    - /prepare-charitys-annual-accounts/y/yes/over-250-000-to-500-000
+    - /prepare-charitys-annual-accounts/y/yes/over-250-000-to-500-000/yes
+    - /prepare-charitys-annual-accounts/y/yes/over-250-000-to-500-000/no
+    - /prepare-charitys-annual-accounts/y/yes/over-500-000-to-1-million
+    - /prepare-charitys-annual-accounts/y/yes/over-500-000-to-1-million/yes
+    - /prepare-charitys-annual-accounts/y/yes/over-500-000-to-1-million/no
+    - /prepare-charitys-annual-accounts/y/yes/over-1-million
+    - /prepare-charitys-annual-accounts/y/no
+    - /prepare-charitys-annual-accounts/y/no/up-to-25-000
+    - /prepare-charitys-annual-accounts/y/no/over-25-000-to-250-000
+    - /prepare-charitys-annual-accounts/y/no/over-250-000-to-500-000
+    - /prepare-charitys-annual-accounts/y/no/over-250-000-to-500-000/yes
+    - /prepare-charitys-annual-accounts/y/no/over-250-000-to-500-000/no
+    - /prepare-charitys-annual-accounts/y/no/over-500-000-to-1-million
+    - /prepare-charitys-annual-accounts/y/no/over-500-000-to-1-million/yes
+    - /prepare-charitys-annual-accounts/y/no/over-500-000-to-1-million/no
+    - /prepare-charitys-annual-accounts/y/no/over-1-million
   start_date: 2026/07/03
   end_date: 2026/07/24
