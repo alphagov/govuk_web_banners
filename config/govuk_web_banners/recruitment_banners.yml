@@ -83,9 +83,6 @@ banners:
   survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_MTD_VAT_Repayments
   page_paths:
     # frontend
-    - /claim-tax-refund
-    - /tax-overpayments-and-underpayments
-    - /tax-overpayments-and-underpayments/if-you-owe-tax
     - /self-assessment-tax-returns/claiming-a-tax-refund
     - /guidance/claim-a-refund-of-construction-industry-scheme-deductions-if-youre-a-limited-company
   start_date: 2026/06/17
@@ -143,6 +140,9 @@ banners:
   survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_P800_over_under_payment_TAD
   page_paths:
     # frontend
+    - /claim-tax-refund
+    - /tax-overpayments-and-underpayments
+    - /tax-overpayments-and-underpayments/if-you-owe-tax
     - /tax-overpayments-and-underpayments/if-youre-due-a-refund
     - /pay-p800-tax-calculation
     - /guidance/claim-an-income-tax-refund-by-post
