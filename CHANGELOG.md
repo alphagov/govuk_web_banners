@@ -9,6 +9,7 @@ For typos, release a patch version.
 # Unreleased
 
 * Remove configuration for HMRC banners URB-35 and URB-36
+* Remove configuration for Annual Charity banner URB-43
 
 # 1.38.1
 
