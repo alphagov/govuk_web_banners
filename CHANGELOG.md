@@ -8,6 +8,7 @@ For typos, release a patch version.
 
 # Unreleased
 
+* Add configuration for Web Search banner 2026/08/10 URB-45
 * Remove configuration for HMRC banners URB-35 and URB-36
 * Remove configuration for Annual Charity banner URB-43
 
