@@ -6,6 +6,11 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 1.40.0
+
+* Add configuration for HMRC banner 2026/08/10 URB-46 [PR #306](https://github.com/alphagov/govuk_web_banners/pull/306)
+
+
 # 1.39.0
 
 * Add configuration for Web Search banner 2026/08/10 URB-45 [PR #304](https://github.com/alphagov/govuk_web_banners/pull/304)
