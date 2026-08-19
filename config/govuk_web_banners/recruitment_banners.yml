@@ -181,3 +181,28 @@ banners:
     - /guidance/use-making-tax-digital-for-income-tax
   start_date: 2026/08/10
   end_date: 2026/09/07
+- name: (URB-47) Search banner 2026/08/19
+  suggestion_text: "Help improve GOV.UK"
+  suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+  survey_url: https://surveys.publishing.service.gov.uk/s/SGF_Round2/
+  page_paths:
+    # frontend
+    - /government/news/machinery-of-government-changes-fact-sheet
+    - /government/speeches/prime-ministers-speech-on-social-care-29-july-2026
+    - /government/news/pm-sets-out-new-path-to-fix-social-care-together-29-july-2026
+    - /government/news/magistrates-court-listings-now-published-online
+    - /government/news/ukhsa-updates-heat-health-alerts-across-england
+    - /government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026
+    - /government/publications/the-uk-sanctions-list
+    - /guidance/national-planning-policy-framework
+    - /government/publications/10-year-health-plan-for-england-fit-for-the-future
+    - /government/consultations/fireworks-and-pyrotechnics-in-the-uk
+    - /government/consultations/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation
+    - /government/consultations/growing-up-in-the-online-world-a-national-consultation
+    - /government/publications/the-national-minimum-wage-in-2026
+    - /government/publications/greenhouse-gas-reporting-conversion-factors-2026
+    - /government/statistics/weekly-road-fuel-prices
+    - /government/publications/migrants-detected-crossing-the-english-channel-in-small-boats
+    - /government/publications/registered-providers-of-social-housing
+  start_date: 2026/08/19
+  end_date: 2026/09/15
