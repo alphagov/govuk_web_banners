@@ -6,6 +6,11 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# Unreleased
+
+* Remove configuration for HMRC banner URB-37
+* Remove configuration for Search banner URB-47
+
 # 1.41.1
 
 * Remove configuration for Web search banner URB-40 and URB-45 [PR #316](https://github.com/alphagov/govuk_web_banners/pull/316)
