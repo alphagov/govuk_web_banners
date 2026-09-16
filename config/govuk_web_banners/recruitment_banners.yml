@@ -1,2 +1,22 @@
-# Check README.md for how to format this file
-banners: []
+banners:
+  - name: (URB-49) HMRC banner - Partnership Registration 2026/10/02
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnership_Registration_TAD
+    page_paths:
+      - /set-up-business-partnership
+      - /set-up-business-partnership/register-partnership-with-hmrc
+    start_date: 2026/10/02
+    end_date: 2026/11/27
+  - name: (URB-49) HMRC banner - Partnership Ending 2026/10/02
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Partnership-ending_TAD
+    page_paths:
+      - /tell-hmrc-changed-business-details
+      - /stop-being-self-employed
+      - /hmrc-internal-manuals/partnership-manual/pm134200
+      - /government/publications/how-to-wind-up-an-insolvent-partnership/how-to-wind-up-an-insolvent-partnership
+      - /selling-your-business-your-responsibilities/business-partnership
+    start_date: 2026/10/02
+    end_date: 2026/11/27
