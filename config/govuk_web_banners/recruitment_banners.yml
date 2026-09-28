@@ -20,3 +20,18 @@ banners:
       - /selling-your-business-your-responsibilities/business-partnership
     start_date: 2026/10/02
     end_date: 2026/11/27
+  - name: (URB-50) HMRC banner
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Get_Help_HMRC_Extra_Support
+    page_paths:
+      # Frontend
+      - /get-help-hmrc-extra-support
+      - /get-help-hmrc-extra-support/cannot-use-telephone-different-way-to-contact
+      - /get-help-hmrc-extra-support/if-you-need-information-in-a-different-format
+      - /get-help-hmrc-extra-support/if-you-need-help-filling-in-forms
+      - /get-help-hmrc-extra-support/if-you-need-more-time-because-of-your-circumstances
+      - /get-help-hmrc-extra-support/information-in-another-language
+      - /get-help-hmrc-extra-support/if-you-need-someone-to-talk-to-hmrc-for-you
+    start_date: 2026/10/09
+    end_date: 2026/12/04
