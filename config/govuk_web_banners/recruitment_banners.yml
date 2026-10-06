@@ -35,3 +35,18 @@ banners:
       - /get-help-hmrc-extra-support/if-you-need-someone-to-talk-to-hmrc-for-you
     start_date: 2026/10/09
     end_date: 2026/12/04
+  - name: (URB-51) HMRC banner - Running Payroll
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_Running-payroll_TAD
+    page_paths:
+      # Frontend
+      - /paye-online
+      - /running-payroll/paying-hmrc
+      - /running-payroll/reporting-to-hmrc
+      - /paye-settlement-agreements
+      - /find-hmrc-contacts/employers-general-enquiries
+      - /guidance/help-and-support-for-employing-people
+      - /pay-paye-tax/reference-numbers-early-late-payments
+    start_date: 2026/10/20
+    end_date: 2026/12/15
