@@ -1,1 +1,1 @@
-Rails.application.config.emergency_banner_redis_client = Redis.new
+Rails.application.config.emergency_banner = GovukWebBanners::EmergencyBanner.new
