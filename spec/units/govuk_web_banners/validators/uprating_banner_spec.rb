@@ -78,6 +78,45 @@ RSpec.describe GovukWebBanners::Validators::UpratingBanner do
     end
   end
 
+  context "with banners on the same path" do
+    context "when they aren't active at the same time" do
+      let(:replacement_file) do
+        YAML.load_file(Rails.root.join(fixtures_dir, "path_clash_different_times_uprating_banners.yml"))
+      end
+
+      describe ".valid?" do
+        it "returns true" do
+          expect(validator.valid?).to be true
+        end
+      end
+
+      describe "errors attribute" do
+        it "returns an empty array" do
+          expect(validator.errors).to be_empty
+        end
+      end
+    end
+
+    context "when they are active at the same time" do
+      let(:replacement_file) do
+        YAML.load_file(Rails.root.join(fixtures_dir, "path_clash_same_time_uprating_banners.yml"))
+      end
+
+      describe ".valid?" do
+        it "returns false" do
+          expect(validator.valid?).to be false
+        end
+      end
+
+      describe "errors attribute" do
+        it "returns the relevant errors" do
+          expect(validator.errors["Banner feb-apr"]).to eq(["is active at the same time as Banner jan-mar and points to the same paths"])
+          expect(validator.errors["Banner jan-mar"]).to eq(["is active at the same time as Banner feb-apr and points to the same paths"])
+        end
+      end
+    end
+  end
+
   context "with a path that doesn't exist on the live site" do
     let(:replacement_file) do
       YAML.load_file(Rails.root.join(fixtures_dir, "active_uprating_banners.yml"))
