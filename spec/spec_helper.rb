@@ -1,8 +1,9 @@
 require "simplecov"
 SimpleCov.start "rails" do
+  cover_views
   enable_coverage :branch
   minimum_coverage 100
-  add_filter "/lib/govuk_web_banners/version.rb"
+  skip "/lib/govuk_web_banners/version.rb"
 end
 
 ENV["RAILS_ENV"] = "test"

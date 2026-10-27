@@ -1,0 +1,14 @@
+# Fixture - valid because banners point to the same path but don't overlap in time
+banners:
+- name: Banner feb-apr
+  text: "Some calculator rates are temporarily out of date"
+  page_paths:
+  - /page-1
+  start_date: 2025/02/12
+  end_date: 2025/04/12
+- name: Banner may-aug
+  text: "Some calculator rates are temporarily out of date"
+  page_paths:
+  - /page-1
+  start_date: 2025/04/12
+  end_date: 2025/08/12
