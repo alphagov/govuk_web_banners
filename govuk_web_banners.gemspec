@@ -22,7 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "govuk_app_config", ">= 9"
   spec.add_dependency "govuk_publishing_components"
   spec.add_dependency "rails", ">= 7"
-  spec.add_dependency "redis"
 
   spec.add_development_dependency "byebug"
   spec.add_development_dependency "govuk_test"
