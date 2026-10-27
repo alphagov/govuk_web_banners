@@ -71,22 +71,19 @@ the render call:
   ...etc
 ```
 
-Your app will also need access to the whitehall shared redis cluster (which is
-used to signal the emergency banner is up), via the `EMERGENCY_BANNER_REDIS_URL`
-environment variable (here is an example of [setting this in
-govuk-helm-charts](https://github.com/alphagov/govuk-helm-charts/blob/7818eaa22fc194d21548f316bcc5a46c2023dcb6/charts/app-config/values-staging.yaml#L3337-L3338)).
-You'll need to allow this in all three environments.
+If deploying to the GOV.UK EKS cluster you will need to confirm that your app has
+the `emergency_banner_support` flag set to `true` in `govuk-helm-charts`
+[example](https://github.com/alphagov/govuk-helm-charts/blob/main/charts/app-config/values-production.yaml#L353)
+so that Kubernetes will mount the `govuk-apps-emergency-banner` configMap to the
+app's filesystem.
 
-Finally, you'll need to configure a connection to the redis cluster, available
-at `Rails.application.config.emergency_banner_redis_client`. The suggested way
+Finally, you'll need to configure the banner to be created at boot time as
+at `Rails.application.config.emergency_banner`. The suggested way
 of doing this is creating an initializer at
 `/config/initializers/govuk_web_banners.rb` with the content:
 
 ```
-Rails.application.config.emergency_banner_redis_client = Redis.new(
-  url: ENV["EMERGENCY_BANNER_REDIS_URL"],
-  reconnect_attempts: [15, 30, 45, 60],
-)
+Rails.application.config.emergency_banner = GovukWebBanners::EmergencyBanner.new
 ```
 
 ### Required stylesheets
