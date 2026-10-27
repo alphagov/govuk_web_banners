@@ -1,12 +1,13 @@
 require "govuk_app_config/govuk_error"
-require "redis"
 
 module GovukWebBanners
   class EmergencyBanner
+    CONFIG_LOCATION = "/etc/emergency-banner/config.yaml".freeze
+
     attr_reader :campaign_class, :heading, :short_description, :link, :link_text
 
     def initialize
-      content = content_from_redis
+      content = content_from_yaml
 
       @campaign_class = content[:campaign_class].presence
       @heading = content[:heading].presence
@@ -21,16 +22,10 @@ module GovukWebBanners
 
   private
 
-    def redis_client
-      Rails.application.config.emergency_banner_redis_client
-    end
-
-    def content_from_redis
-      Rails.cache.fetch("#emergency_banner/config", expires_in: 1.minute) do
-        redis_client.hgetall("emergency_banner").try(:symbolize_keys)
-      end
+    def content_from_yaml
+      YAML.load_file(CONFIG_LOCATION, symbolize_names: true)
     rescue StandardError => e
-      GovukError.notify(e, extra: { context: "Emergency Banner Redis" })
+      GovukError.notify(e, extra: { context: "Emergency Banner configMap" })
       {}
     end
   end
