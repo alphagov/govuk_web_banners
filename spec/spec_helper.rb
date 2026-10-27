@@ -1,5 +1,6 @@
 require "simplecov"
 SimpleCov.start "rails" do
+  cover_views
   enable_coverage :branch
   minimum_coverage 100
   skip "/lib/govuk_web_banners/version.rb"
