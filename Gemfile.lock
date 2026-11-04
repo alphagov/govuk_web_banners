@@ -5,7 +5,6 @@ PATH
       govuk_app_config (>= 9)
       govuk_publishing_components
       rails (>= 7)
-      redis
 
 GEM
   remote: https://rubygems.org/
@@ -489,10 +488,6 @@ GEM
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
-    redis (6.0.0)
-      redis-client (= 0.30.1)
-    redis-client (0.30.1)
-      connection_pool
     regexp_parser (2.12.0)
     reline (0.7.0)
       io-console (~> 0.5)
