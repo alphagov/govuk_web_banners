@@ -50,3 +50,313 @@ banners:
       - /pay-paye-tax/reference-numbers-early-late-payments
     start_date: 2026/10/20
     end_date: 2026/12/15
+  - name: (URB-53) HMRC banner - Making Tax Digital for Income Tax
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_guidance_MTDGN2
+    page_paths:
+      - /guidance/use-making-tax-digital-for-income-tax
+      - /government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step
+      - /guidance/sign-up-for-making-tax-digital-for-income-tax
+      - /guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax
+      - /guidance/choose-the-right-software-for-making-tax-digital-for-income-tax
+      - /guidance/use-making-tax-digital-for-income-tax/help-and-support
+    start_date: 2026/11/09
+    end_date: 2026/12/31
+  - name: (URB-53) HMRC banner - Making Tax Digital for Income Tax
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_HMRC_/government/collections/making-tax-digital-for-income-tax
+    page_paths:
+      - /government/collections/making-tax-digital-for-income-tax
+    start_date: 2026/11/09
+    end_date: 2026/12/31
+  - name: HMRC banner - How VAT Works
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_How_VAT_Works
+    page_paths:
+      - /how-vat-works/vat-schemes
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Sending a VAT Return
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Sending_a_VAT_Return
+    page_paths:
+      - /submit-vat-return
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Pay Your VAT bill
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Pay_Your_VAT_bill
+    page_paths:
+      - /pay-vat
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - PAYE and payroll for employers
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_PAYE_and_payroll_for_employers
+    page_paths:
+      - /paye-for-employers
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Basic PAYE Tools guidance for employers
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Basic_PAYE_Tools_guidance_for_employers
+    page_paths:
+      - /government/collections/guidance-for-employers-on-using-basic-paye-tools-bpt
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Fix problems with running payroll
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Fix_problems_with_running_payroll
+    page_paths:
+      - /payroll-errors
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Company expenses you can deduct before paying Corporation Tax
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Company_expenses_you_can_deduct_before_paying_Corporation_Tax
+    page_paths:
+      - /guidance/company-expenses-you-can-deduct-before-paying-corporation-tax
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Pay your Corporation Tax bill
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Tell_HMRC_your_company_is_dormant_for_Corporation_Tax
+    page_paths:
+      - /pay-corporation-tax
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Tell HMRC your company is dormant for Corporation Tax
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Sign_in_to_your_HMRC_business_tax_account
+    page_paths:
+      - /tell-hmrc-your-company-is-dormant-for-corporation-tax
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Dormant companies and associations
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Dormant_companies_and_associations
+    page_paths:
+      - /dormant-company
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Sign in to your HMRC business tax account
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Sign_in_to_your_HMRC_business_tax_account
+    page_paths:
+      - /guidance/sign-in-to-your-hmrc-business-tax-account
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Tax agent toolkits
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Tax_agent_toolkits
+    page_paths:
+      - /government/collections/tax-agents-toolkits
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Disagree with a tax decision or penalty
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Disagree_with_a_tax_decision_or_penalty
+    page_paths:
+      - /tax-appeals
+      - /guidance/how-to-get-a-review-of-an-hmrc-decision
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Use alternative dispute resolution to settle a tax dispute
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Use_alternative_dispute_resolution_to_settle_a_tax_dispute
+    page_paths:
+      - /guidance/tax-disputes-alternative-dispute-resolution-adr
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - If you cannot pay your tax bill on time
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_If_you_cannot_pay_your_tax_bill_on_time
+    page_paths:
+      - /difficulties-paying-hmrc
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Check if you need to tell HMRC about your income from online platforms
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Check_if_you_need_to_tell_HMRC_about_your_income_from_online_platforms
+    page_paths:
+      - /guidance/check-if-you-need-to-tell-hmrc-about-your-income-from-online-platforms
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Tax treaties
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Tax_treaties
+    page_paths:
+      - /government/collections/tax-treaties
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Check how to register for Self Assessment
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Check_how_to_register_for_Self_Assessment
+    page_paths:
+      - /register-for-self-assessment
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Self employment detailed information
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Self_employment_detailed_information
+    page_paths:
+      - /government/collections/self-employment-detailed-information
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Self Assessment tax returns
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Self_Assessment_tax_returns
+    page_paths:
+      - /self-assessment-tax-returns
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Working for yourself
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Working_for_yourself
+    page_paths:
+      - /working-for-yourself
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Check how to register for Self Assessment
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Check_how_to_register_for_Self_Assessment
+    page_paths:
+      - /government/publications/self-assessment-register-for-self-assessment-and-get-a-tax-return-sa1
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - File your Self Assessment tax return online
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_File_your_Self_Assessment_tax_return_online
+    page_paths:
+      - /log-in-file-self-assessment-tax-return
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Paying Corporation Tax if you’re a non resident company landlord
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Paying_Corporation_Tax_if_you%E2%80%99re_a_non_resident_company_landlord
+    page_paths:
+      - /guidance/paying-corporation-tax-if-youre-a-non-resident-company-landlord
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Agents Self Assessment and PAYE letter headings
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Agents_Self_Assessment_and_PAYE_letter_headings
+    page_paths:
+      - /guidance/agents-self-assessment-and-paye-letter-headings
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - What to do if your tax agent business is changing
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_What_to_do_if_your_tax_agent_business_is_changing
+    page_paths:
+      - /guidance/what-to-do-if-your-tax-agent-business-is-changing
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Agent Dedicated Line PAYE SA for individuals
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Agent_Dedicated_Line_PAYE_SA_for_individuals
+    page_paths:
+      - /find-hmrc-contacts/agent-dedicated-line-self-assessment-or-paye-for-individuals
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Work out your rental income
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Work_out_your_rental_income
+    page_paths:
+      - /guidance/income-tax-when-you-rent-out-a-property-working-out-your-rental-income
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Pay employers PAYE
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Pay_employers_PAYE
+    page_paths:
+      - /pay-paye-tax
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Pay a Construction Industry Scheme late filing penalty
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Pay_a_Construction_Industry_Scheme_late_filing_penalty
+    page_paths:
+      - /pay-construction-industry-scheme-cis-late-filing-penalty
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Register a partnership for Self Assessment
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Register_a_partnership_for_Self_Assessment
+    page_paths:
+      - /guidance/register-a-partnership-for-self-assessment
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - SA Partnership Tax Return SA800
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_SA_Partnership_Tax_Return_SA800
+    page_paths:
+      - /government/publications/self-assessment-partnership-tax-return-sa800
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Register for VAT
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Register_for_VAT
+    page_paths:
+      - /register-for-vat
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Tax overpayments and underpayments
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Tax_overpayments_and_underpayments
+    page_paths:
+      - /tax-overpayments-and-underpayments
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - PAYE Online for employers
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_PAYE_Online_for_employers
+    page_paths:
+      - /paye-online
+    start_date: 2026/10/19
+    end_date: 2026/12/14
+  - name: HMRC banner - Avoid and report internet scams and phishing
+    suggestion_text: "Help improve GOV.UK"
+    suggestion_link_text: "Sign up to take part in user research (opens in a new tab)"
+    survey_url: https://survey.take-part-in-research.service.gov.uk/jfe/form/SV_74GjifgnGv6GsMC?Source=BannerList_GDS_Avoid_and_report_internet_scams_and_phishing
+    page_paths:
+      - /report-suspicious-emails-websites-phishing
+    start_date: 2026/10/19
+    end_date: 2026/12/14
