@@ -9,6 +9,7 @@ module GovukWebBanners
     def initialize
       content = content_from_yaml
 
+      @deployed = content[:deployed] == true
       @campaign_class = content[:campaign_class].presence
       @heading = content[:heading].presence
       @short_description = content[:short_description].presence
@@ -16,8 +17,8 @@ module GovukWebBanners
       @link_text = content[:link_text].presence
     end
 
-    def active?
-      [campaign_class, heading].all?
+    def deployed?
+      @deployed
     end
 
   private
