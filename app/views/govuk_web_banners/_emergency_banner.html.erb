@@ -1,5 +1,5 @@
 <% emergency_banner = Rails.application.config.emergency_banner %>
-<% if emergency_banner.active? %>
+<% if emergency_banner.deployed? %>
   <%= render "govuk_publishing_components/components/emergency_banner", {
     campaign_class: emergency_banner.campaign_class,
     heading: emergency_banner.heading,
