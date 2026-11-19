@@ -6,6 +6,17 @@ Include a link to your pull request.
 When adding a new banner to gov.uk page, release a minor version.
 For typos, release a patch version.
 
+# 2.0.0
+
+* BREAKING: Read emergency banner from configuration file PNP-10291 [PR #359](https://github.com/alphagov/govuk_web_banners/pull/359)
+  Upgrading to this version of the gem requires updating your app's config file for this gem from:
+
+  `Rails.application.config.emergency_banner_redis_client = <your redis setup>`
+
+  to
+
+  `Rails.application.config.emergency_banner = GovukWebBanners::EmergencyBanner.new`
+
 # 1.44.0
 
 * Add configuration for HMRC banners 2026/10/20 URB-51 [PR #344](https://github.com/alphagov/govuk_web_banners/pull/344)
