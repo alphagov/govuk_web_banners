@@ -34,15 +34,7 @@ if you have single-component support in your app and you're rendering the compon
 enough in your layout that their styles can be picked up automatically.
 
 ```SCSS
-@import "govuk_web_banners/dependencies";
-```
-
-Note: this import relies on frontend and component support being available in your application's
-main `.scss` file. Make sure that the following lines are at the top of the file.
-
-```SCSS
-@import 'govuk_publishing_components/govuk_frontend_support';
-@import 'govuk_publishing_components/component_support';
+@use "govuk_web_banners/dependencies";
 ```
 
 ## Adding emergency banners
@@ -94,7 +86,7 @@ Rails.application.config.emergency_banner_redis_client = Redis.new(
 If you're not including the style dependencies as above, and not using
 single-component autoloading of styles, you'll need to import:
 
-`@import "govuk_web_banners/components/emergency-banner"`
+`@use "govuk_publishing_components/components/emergency-banner"`
 
 ## Adding global banners
 
@@ -187,7 +179,7 @@ released gem.
 If you're not including the style dependencies as above, and not using
 single-component autoloading of styles, you'll need to import:
 
-`@import "govuk_web_banners/components/global-banner"`
+`@use "govuk_publishing_components/components/global-banner"`
 
 ## Adding recruitment banners
 
@@ -204,7 +196,7 @@ breadcrumbs and just above the `main` element):
 If you're not including the style dependencies as above, and not using
 single-component autoloading of styles, you'll need to import:
 
-`@import "govuk_web_banners/components/intervention"`
+`@use "govuk_publishing_components/components/intervention"`
 
 ## Updating banner information in the gem
 
