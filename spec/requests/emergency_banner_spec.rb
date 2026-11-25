@@ -1,11 +1,12 @@
 RSpec.describe "Emergency Banners" do
   before do
-    Rails.application.config.emergency_banner_redis_client = redis_client
+    stub_const("GovukWebBanners::EmergencyBanner::CONFIG_LOCATION", config_file)
+    Rails.application.config.emergency_banner = GovukWebBanners::EmergencyBanner.new
   end
 
   context "when getting a path with the banner partial" do
-    context "with the emergency banner active" do
-      let(:redis_client) { instance_double(Redis, hgetall: { heading: "Emergency!", campaign_class: "notable-death" }) }
+    context "with the emergency banner deployed" do
+      let(:config_file) { "spec/fixtures/deployed_emergency_banner.yml" }
 
       it "shows a banner in the page" do
         get "/emergency"
@@ -22,8 +23,8 @@ RSpec.describe "Emergency Banners" do
       end
     end
 
-    context "with the emergency banner inactive" do
-      let(:redis_client) { instance_double(Redis, hgetall: {}) }
+    context "with the emergency banner undeployed" do
+      let(:config_file) { "spec/fixtures/undeployed_emergency_banner.yml" }
 
       it "does not show a banner in the page" do
         get "/emergency"
